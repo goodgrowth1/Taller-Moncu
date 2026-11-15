@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:A;src:url(node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+@font-face{font-family:P;src:url(node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2);font-weight:700}
+html,body{margin:0;background:#000}
+.s{position:relative;width:1080px;height:1920px;overflow:hidden;background:linear-gradient(180deg,#0B0A12 0%,#17122A 55%,#2A2250 100%);font-family:A}
+.abs{position:absolute}
+.pill{display:inline-block;background:#E5F38B;color:#000;font-size:64px;letter-spacing:3px;padding:8px 34px 12px;border-radius:999px}
+.w{color:#FFF;text-shadow:0 6px 30px rgba(0,0,0,.6)}
+.l{color:#E5F38B}
+.mono{width:560px;height:560px}
+.ghost{color:rgba(229,243,139,.08)}
+</style></head><body>
+
+<!-- A: titular grande + mono subiendo una cuesta en diagonal -->
+<div class="s" id="A">
+ <svg class="abs" style="left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <path d="M0 1920 L0 1640 L1080 1180 L1080 1920 Z" fill="#231C40"/>
+  <path d="M0 1640 L1080 1180" stroke="#3a3260" stroke-width="10"/>
+  <path d="M-40 1760 L1120 1266" stroke="#2f2852" stroke-width="6" stroke-dasharray="70 60"/>
+  <g transform="translate(905 1170)"><path d="M0 -120 L110 70 L-110 70 Z" fill="none" stroke="#E5F38B" stroke-width="12" stroke-linejoin="round"/><text x="0" y="45" text-anchor="middle" font-family="A" font-size="64" fill="#E5F38B">12%</text></g>
+ </svg>
+ <div class="abs" style="left:0;right:0;top:300px;text-align:center"><span class="pill">3 TRUCOS</span></div>
+ <div class="abs w" style="left:0;right:0;top:415px;text-align:center;font-size:120px;line-height:1">CÓMO SUBIR</div>
+ <div class="abs w" style="left:0;right:0;top:520px;text-align:center;font-size:300px;line-height:1;letter-spacing:4px">CUESTAS</div>
+ <div class="abs l" style="left:0;right:0;top:830px;text-align:center;font-size:150px;line-height:1">SIN AHOGARTE</div>
+ <img class="abs" src="gif/m08.png" style="left:170px;top:1150px;width:480px;height:480px;transform:rotate(-23deg);transform-origin:50% 95%">
+</div>
+
+<!-- B: el "12%" gigante como gancho visual -->
+<div class="s" id="B">
+ <div class="abs ghost" style="left:-30px;right:-30px;top:330px;text-align:center;font-size:640px;line-height:1">12%</div>
+ <svg class="abs" style="left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <path d="M0 1920 L0 1700 L1080 1360 L1080 1920 Z" fill="#231C40"/>
+  <path d="M0 1700 L1080 1360" stroke="#3a3260" stroke-width="10"/>
+ </svg>
+ <div class="abs w" style="left:80px;right:80px;top:360px;font-size:110px;line-height:1.02">¿LAS CUESTAS<br>TE <span class="l">AHOGAN</span>?</div>
+ <div class="abs" style="left:80px;right:80px;top:640px;font-family:P;font-size:52px;line-height:1.3;color:#C9C3DD">Así se suben sin sufrir de más.</div>
+ <div class="abs" style="left:80px;top:820px"><span class="pill">3 TRUCOS</span></div>
+ <img class="abs mono" src="gif/m26.png" style="left:420px;top:930px;width:640px;height:640px;transform:rotate(-17deg);transform-origin:50% 95%">
+</div>
+</body></html>

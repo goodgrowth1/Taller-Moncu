@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:A;src:url(node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+@font-face{font-family:P;src:url(node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2);font-weight:700}
+html,body{margin:0;background:#000}
+#s{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:A,sans-serif}
+.abs{position:absolute}
+.t{color:#FFFFFF;text-align:center;letter-spacing:1px;text-shadow:0 4px 18px rgba(0,0,0,.55)}
+#title{left:40px;right:40px;top:250px;font-size:120px;line-height:1.04;z-index:20}
+#title i{font-style:normal;color:#E5F38B}#title b{font-weight:400;color:#7B5CF0}
+#title em{font-style:normal;display:inline-block;background:#E5F38B;color:#000;text-shadow:none;padding:4px 26px 10px;border-radius:20px}
+#chip{left:0;right:0;top:95px;text-align:center;z-index:21}
+#chip span{display:inline-block;background:rgba(255,255,255,.06);color:#FFFFFF;font-family:A;font-size:46px;letter-spacing:4px;padding:8px 30px 10px;border:3px solid rgba(255,255,255,.25);border-radius:999px}
+#teaser{left:0;right:0;top:800px;display:flex;justify-content:center;gap:40px;z-index:19}
+#teaser span{width:150px;height:150px;border-radius:50%;background:#7B5CF0;border:0;color:#FFF;line-height:150px !important;font-size:120px;line-height:158px;text-align:center;font-family:A;opacity:0}
+#card{left:80px;right:80px;top:700px;height:400px;z-index:19;background:#141414;border:3px solid #2c2840;border-radius:40px;box-shadow:0 30px 60px rgba(0,0,0,.45);opacity:0}
+#num{left:44px;top:44px;width:140px;height:140px;border-radius:50%;background:#7B5CF0;color:#FFF;font-size:96px;line-height:140px;text-align:center;text-shadow:none}
+#ctext{left:220px;right:40px;top:40px;color:#FFFFFF;font-size:80px;line-height:1.05}
+#cnote{left:44px;right:44px;top:240px;color:#A3A3A3;font-family:P;font-size:44px;line-height:1.3}
+#cnote b{color:#E5F38B}
+#mono{left:250px;top:1110px;width:580px;height:580px;z-index:10;transform-origin:50% 95%}
+#mono img{position:absolute;left:0;top:0;width:580px;height:580px;display:none}
+#flash{left:0;top:0;width:1080px;height:1920px;background:#fff;opacity:0;z-index:40}
+#save{left:0;right:0;top:700px;text-align:center;opacity:0;z-index:19}
+#wm{left:0;right:0;top:1820px;text-align:center;font-size:40px;color:rgba(255,255,255,.7);letter-spacing:8px;opacity:0;z-index:30}
+#sign{z-index:9}
+</style></head><body>
+<div id="s">
+ <svg class="abs" style="left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs><linearGradient id="sg" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0B0A12"/><stop offset=".7" stop-color="#1E1838"/><stop offset="1" stop-color="#2E2557"/></linearGradient></defs>
+  <rect width="1080" height="1920" fill="url(#sg)"/>
+  <circle id="sun" cx="850" cy="980" r="60" fill="#E9E3FD" opacity=".18"/>
+  <g id="clouds"></g>
+  <g id="world"><g id="hillsFar"></g><g id="houses"></g><g id="bushes"></g>
+   <rect x="-1200" y="1640" width="3480" height="24" fill="#3a3354"/>
+   <rect x="-1200" y="1664" width="3480" height="900" fill="#141414"/>
+   <g id="dashes"></g><g id="signG"></g></g>
+ </svg>
+ <div id="mono" class="abs"></div>
+ <div id="chip" class="abs"><span id="chipt">PENDIENTE 0%</span></div>
+ <div id="title" class="abs t"></div>
+ <div id="teaser" class="abs"><span id="q1">1</span><span id="q2">2</span><span id="q3">3</span></div>
+ <div id="card" class="abs"><div id="num" class="abs t">1</div><div id="ctext" class="abs"></div><div id="cnote" class="abs"></div></div>
+ <div id="save" class="abs"><svg width="300" height="380" viewBox="0 0 300 380"><path d="M40 20 H260 V360 L150 280 L40 360 Z" fill="none" stroke="#E5F38B" stroke-width="18" stroke-linejoin="round"/></svg></div>
+ <div id="wm" class="abs t">MONCU</div>
+ <div id="flash" class="abs"></div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+const smooth=x=>{x=clamp(x);return x*x*(3-2*x)};
+const back=x=>{x=clamp(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const sd=i=>{const x=Math.sin(i*127.1)*43758.5453;return x-Math.floor(x)};
+const lerp=(a,b,k)=>a+(b-a)*k;
+const NS='http://www.w3.org/2000/svg';
+function el(tag,at,par){const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);par.appendChild(e);return e}
+// Tiempos de cada frase (se reajustan a la voz)
+window.T={hook:0,paseo:4.6,todos:8.5,cabeza:10.0,t1:13.5,n1:16.2,t2:17.9,n2:20.8,t3:23.35,n3:25.45,arriba:28.1,guarda:31.6,end:34.6};
+// --- barrio: chalés, setos, árboles, vallas
+const WALL=['#2A2346','#251F3E','#2F2850','#28213F'];
+const ROOF=['#1A1530','#1D1835','#17132B'];
+const hs=$('houses');const H=[];let hx=-1200,k=0;
+while(hx<2600){const w=300+sd(k)*90,h=230+sd(k+5)*90;const g=el('g',{},hs);g._x=hx;const base=1640;
+ el('rect',{x:0,y:base-h,width:w,height:h,fill:WALL[k%4]},g);
+ el('path',{d:`M-26 ${base-h} L${w/2} ${base-h-150-sd(k+2)*40} L${w+26} ${base-h} Z`,fill:ROOF[k%3]},g);
+ el('rect',{x:w*0.62,y:base-h-140,width:30,height:80,fill:'#1A1530'},g);
+ el('rect',{x:w/2-40,y:base-120,width:80,height:120,fill:'#1A1530',rx:6},g);
+ [[0.17],[0.66]].forEach(([fx])=>{el('rect',{x:w*fx,y:base-h+50,width:66,height:66,fill:(sd(k*3+fx*10)>.45?'#5B4A9E':'#1A1530'),rx:6},g)});
+ // valla
+ for(let fx=-30;fx<w+60;fx+=34)el('rect',{x:fx,y:base-70,width:20,height:70,fill:'#211B38',rx:4},g);
+ H.push(g);hx+=w+90;k++}
+const houseW=hx+1200;
+const bs=$('bushes');const BU=[];
+for(let i=0;i<22;i++){const g=el('g',{},bs);g._x=-1200+i*180+sd(i)*60;const r=40+sd(i+3)*24;
+ if(i%5===2){el('rect',{x:-12,y:1640-200,width:24,height:200,fill:'#1A1530'},g);el('circle',{cx:0,cy:1640-230,r:95,fill:'#231D3C'},g)}
+ else{el('circle',{cx:0,cy:1640-r*.6,r:r,fill:'#2A2346'},g);el('circle',{cx:r*.9,cy:1640-r*.45,r:r*.75,fill:'#231D3C'},g)}
+ BU.push(g)}
+const bushW=22*180;
+const cl=$('clouds');const CL=[];for(let i=0;i<0;i++){const g=el('g',{},cl);[[0,0,60],[55,-25,70],[115,0,55]].forEach(([x,y,r])=>el('circle',{cx:x,cy:y,r:r,fill:'#FFFFFF',stroke:'#000','stroke-width':8},g));CL.push(g)}
+const dashes=[];for(let i=0;i<14;i++)dashes.push(el('rect',{x:0,y:1790,width:120,height:16,rx:8,fill:'#3a3354'},$('dashes')));
+// señal de cuesta
+const sg=$('signG');const sign=el('g',{},sg);
+el('rect',{x:-8,y:1640-300,width:16,height:300,fill:'#3a3354'},sign);
+el('path',{d:'M0 1180 L110 1370 L-110 1370 Z',fill:'#141414',stroke:'#E5F38B','stroke-width':12,'stroke-linejoin':'round'},sign);
+el('path',{d:'M-60 1345 L60 1345 L60 1265 Z',fill:'#E5F38B'},sign);
+const st=el('text',{x:0,y:1335,'text-anchor':'middle','font-family':'A','font-size':44,fill:'#000'},sign);st.textContent='';
+for(let i=0;i<47;i++){const im=document.createElement('img');im.src='gif/m'+String(i).padStart(2,'0')+'.png';im.id='mf'+i;$('mono').appendChild(im)}
+let lastF=-1,last='',D=0,lt=null,ph=0;
+function setTitle(h){if(h!==last){$('title').innerHTML=h;last=h}}
+function render(t){
+ const T=window.T;
+ // pendiente: sube en el hook, se mantiene en la cuesta y se aplana arriba
+ const slope=t<T.arriba?smooth((t-1.0)/1.6)*9:9*(1-smooth((t-T.arriba)/1.2));
+ // esfuerzo: se ahoga en "paseo", recupera con los trucos
+ let g=0;if(t>=T.paseo&&t<T.cabeza)g=ease((t-T.paseo)/.6);if(t>=T.cabeza)g=1-ease((t-T.cabeza)/.5);
+ const sp=lerp(1.1,.35,g);
+ if(lt===null||t<lt){D=0;ph=0;lastF=-1;document.querySelectorAll('#mono img').forEach(i=>i.style.display='none')}else{D+=sp*(t-lt);ph+=sp*(t-lt)}lt=t;
+ $('world').setAttribute('transform',`rotate(${-slope} 540 1660)`);
+ H.forEach(b=>{const x=((b._x+1200-D*260)%houseW+houseW)%houseW-1200;b.setAttribute('transform',`translate(${x},0)`)});
+ BU.forEach(b=>{const x=((b._x+1200-D*420)%bushW+bushW)%bushW-1200;b.setAttribute('transform',`translate(${x},0)`)});
+ dashes.forEach((d,i)=>{const x=((i*200-D*950)%2800+2800)%2800-1200;d.setAttribute('x',x)});
+ CL.forEach((c,i)=>{const x=((i*330-t*25)%1500+1500)%1500-250;c.setAttribute('transform',`translate(${x},${930+(i%2)*90}) scale(.8)`)});
+ // señal: pasa por delante en el hook
+ const sx=1300-(t-0.2)*380;sign.setAttribute('transform',`translate(${sx},0)`);st.textContent='';
+ // mono
+ const fr=Math.floor(ph*24)%47;if(fr!==lastF){if(lastF>=0)$('mf'+lastF).style.display='none';$('mf'+fr).style.display='block';lastF=fr}
+ $('mono').style.transform=`rotate(${-slope+g*4}deg)`;
+ $('mono').style.filter=`saturate(${1-g*.6})`;
+ // chip
+ const pend=Math.round(slope/9*12);
+ $('chipt').textContent=t<T.cabeza?`PENDIENTE ${pend}%`:t<T.arriba?'MODO CUESTA':'¡ARRIBA!';
+ $('chip').style.opacity=t<T.guarda?1:0;
+ $('chipt').style.color=t>=T.arriba?'#E5F38B':'#FFFFFF';
+ // títulos
+ const sc=[[T.hook,'<em>¿Las cuestas<br>te ahogan?</em><br>Súbelas <i>sin sufrir</i>.'],[T.paseo,'Llegas a la cuesta...<br>y vas a ritmo<br>de <i>paseo</i>.'],[T.todos,'Nos pasa<br>a todos.'],[T.cabeza,'No es apretar más.<br>Es subir<br><i>con cabeza</i>.'],
+  [T.t1,''],[T.arriba,'Y arriba,<br><i>no pares</i>.<br>Trota suave.'],[T.guarda,'Guárdalo para<br>tu <i>próxima cuesta</i>.']];
+ let ki=0;sc.forEach((s,i)=>{if(t>=s[0])ki=i});setTitle(sc[ki][1]);const s0=sc[ki][0];
+ $('title').style.fontSize=ki===0?'112px':'120px';
+ $('title').style.transform=`scale(${.55+.45*back((t-s0)/.3)}) rotate(${ki%2?1.5:-1.5}deg)`;
+ // círculos del hook
+ [1,2,3].forEach(i=>{const q=t-(.45+i*.28);const e=$('q'+i);const on=q>0&&t<T.paseo;e.style.opacity=on?1:0;e.style.transform=`scale(${on?back(q/.3):0}) rotate(${(i-2)*6}deg)`});
+ // tarjetas
+ const cards=[[T.t1,'1','Pasos cortos<br>y rápidos.','Como si subieras<br>una <b>escalera</b>.'],[T.t2,'2','Mira 10 m<br>por delante.','<b>No a la cima.</b> La cima asusta.'],[T.t3,'3','Brazos<br>activos.','Si mueves los brazos,<br><b>las piernas los siguen</b>.']];
+ let ci=-1;cards.forEach((c,i)=>{if(t>=c[0]&&t<T.arriba)ci=i});
+ if(ci>=0){const c=cards[ci];$('card').style.opacity=1;$('num').textContent=c[1];$('ctext').innerHTML=c[2];$('cnote').innerHTML=c[3];
+  const q=t-c[0];$('card').style.transform=`translateY(${(1-back(q/.35))*900}px) rotate(${[-2,2,-1.5][ci]}deg)`;$('cnote').style.opacity=clamp((t-[T.n1,T.n2,T.n3][ci])/.2)}else $('card').style.opacity=0;
+ // guardar y firma
+ const gq=t-T.guarda;$('save').style.opacity=gq>0?1:0;$('save').style.transform=`scale(${gq>0?back(gq/.35)*(1+Math.sin(t*6)*.03):0})`;
+ $('wm').style.opacity=t>=T.guarda+1?clamp((t-T.guarda-1)/.4):0;
+ $('flash').style.opacity=clamp(1-Math.abs(t-T.cabeza)/.1)*.18;
+}
+window.render=render;render(0);
+</script></body></html>

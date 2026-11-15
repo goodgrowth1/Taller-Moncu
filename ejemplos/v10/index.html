@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:A;src:url(node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+@font-face{font-family:P;src:url(node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2);font-weight:700}
+html,body{margin:0;background:#000}
+#s{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:A,sans-serif;background:radial-gradient(ellipse at 50% 55%,#261F4A 0%,#15112A 55%,#0B0A12 100%)}
+.abs{position:absolute}
+.t{color:#FFFFFF;text-align:center;letter-spacing:1px;text-shadow:0 4px 18px rgba(0,0,0,.6)}
+#title{left:40px;right:40px;top:270px;font-size:116px;line-height:1.04;z-index:20}
+#title i{font-style:normal;color:#E5F38B}#title b{font-weight:400;color:#9C86F5}
+#title small{display:block;font-size:80px;line-height:1.08;margin-top:22px}
+#chip{left:0;right:0;top:110px;text-align:center;z-index:21}
+#chip span{display:inline-flex;align-items:center;gap:16px;background:rgba(255,255,255,.06);color:#fff;font-size:52px;letter-spacing:4px;padding:8px 34px 12px;border:3px solid rgba(123,92,240,.7);border-radius:999px}
+.card{background:#141414;border:3px solid #2c2840;border-radius:40px}
+#glu{left:140px;right:140px;top:700px;padding:26px 36px;z-index:19;opacity:0}
+#glu .lab{display:flex;justify-content:space-between;font-size:56px;color:#fff;margin-bottom:12px}
+.bar{height:44px;border-radius:999px;background:rgba(255,255,255,.07);overflow:hidden}
+.fill{height:100%;border-radius:999px;background:#7B5CF0}
+#stamp{left:0;right:0;top:1480px;text-align:center;z-index:24;opacity:0}
+#stamp span{display:inline-block;border:12px solid #E5F38B;border-radius:24px;color:#E5F38B;font-size:96px;letter-spacing:5px;padding:2px 36px 12px;background:rgba(11,10,18,.88)}
+#study{left:90px;right:90px;top:800px;padding:44px 50px 34px;z-index:19;opacity:0}
+#study h3{margin:0 0 30px;font-weight:400;font-size:56px;color:#A3A3A3;letter-spacing:3px}
+.row{margin-bottom:34px}.rl{font-size:62px;color:#fff;margin-bottom:12px}
+.src{font-family:P;font-size:30px;color:#6f6890}
+#ex{left:80px;right:80px;top:760px;z-index:19}
+.exc{padding:34px 40px;margin-bottom:28px;font-size:84px;color:#fff;line-height:1.02;opacity:0;display:flex;align-items:center;gap:30px}
+.exc .ic{flex:none;width:110px;height:110px;border-radius:50%;background:#7B5CF0}
+#pills{left:0;right:0;top:1350px;text-align:center;z-index:19}
+#pills span{display:inline-block;margin:10px;background:#141414;border:3px solid #7B5CF0;color:#fff;font-size:64px;padding:8px 32px 12px;border-radius:999px;opacity:0}
+#kmc{left:140px;right:140px;top:830px;height:520px;padding:30px 40px;z-index:19;opacity:0}
+#fisio{left:110px;right:110px;top:760px;padding:44px 50px;z-index:19;opacity:0}
+#fisio h3{margin:0 0 26px;font-weight:400;font-size:84px;color:#fff}
+.fl{font-size:70px;color:#fff;margin:16px 0;display:flex;align-items:center;gap:24px;opacity:0}
+.fl b{flex:none;width:30px;height:30px;border-radius:50%;background:#E5F38B;display:inline-block}
+#nodx{font-family:P;font-size:42px;color:#A3A3A3;margin-top:24px;opacity:0}
+#mono{left:250px;top:1110px;width:580px;height:580px;z-index:10}
+#mono img{position:absolute;left:0;top:0;width:580px;height:580px;display:none}
+#sign{left:0;right:0;top:1790px;z-index:30;display:flex;justify-content:center;align-items:center;gap:18px;opacity:0}
+#sign img{width:80px}#sign span{font-size:52px;color:#fff;letter-spacing:8px}
+#cover{left:0;top:0;width:1080px;z-index:60;display:none}
+</style></head><body>
+<div id="s">
+ <svg class="abs" style="left:0;top:0;z-index:5" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <g id="grid"></g>
+  <g id="road"><rect x="0" y="1640" width="1080" height="24" fill="#3a3354"/><rect x="0" y="1664" width="1080" height="300" fill="#141414"/><g id="dashes"></g></g>
+  <g id="leg">
+   <line id="plumb" x1="540" y1="930" x2="540" y2="1660" stroke="#A3A3A3" stroke-width="5" stroke-dasharray="16 14" opacity=".6"/>
+   <g id="pelvis"><rect x="330" y="880" width="420" height="70" rx="35" fill="#4A4178"/><circle cx="380" cy="915" r="30" fill="#2A2350"/><circle id="hipJ" cx="540" cy="915" r="36" fill="#7B5CF0"/></g>
+   <line id="femur" x1="540" y1="915" x2="540" y2="1290" stroke="#E9E3FD" stroke-width="58" stroke-linecap="round"/>
+   <line id="tibia" x1="540" y1="1290" x2="540" y2="1640" stroke="#E9E3FD" stroke-width="52" stroke-linecap="round"/>
+   <circle id="kneeGlow" cx="540" cy="1290" r="80" fill="#E5F38B" opacity="0"/>
+   <circle id="kneeJ" cx="540" cy="1290" r="40" fill="#7B5CF0"/>
+   <path d="M480 1640 L640 1640 Q 660 1640 660 1660 L 470 1660 Q 470 1640 480 1640 Z" fill="#9C86F5"/>
+   <text id="arrow" x="0" y="0" font-family="A" font-size="90" fill="#E5F38B" text-anchor="middle">←</text>
+   <text id="steps" x="540" y="1760" font-family="A" font-size="60" fill="#A3A3A3" text-anchor="middle"></text>
+  </g>
+  <circle id="mknee" cx="0" cy="0" r="70" fill="none" stroke="#9C86F5" stroke-width="10" stroke-dasharray="16 12" opacity="0"/>
+ </svg>
+ <div id="mono" class="abs"></div>
+ <div id="chip" class="abs"><span><img src="brand/logo_cara.png" style="width:48px"><b id="kmv" style="font-weight:400">KM 0,0</b></span></div>
+ <div id="title" class="abs t"></div>
+ <div id="glu" class="abs card"><div class="lab"><span>GLÚTEO</span><span id="glv" style="color:#A3A3A3">100 %</span></div><div class="bar"><div class="fill" id="glf"></div></div></div>
+ <div id="stamp" class="abs"><span>CULPABLE: LA CADERA</span></div>
+ <div id="study" class="abs card"><h3>REDUCCIÓN DEL DOLOR</h3>
+  <div class="row"><div class="rl">SOLO RODILLA</div><div class="bar"><div class="fill" id="s1" style="background:#4A4178"></div></div></div>
+  <div class="row"><div class="rl">CADERA + RODILLA</div><div class="bar"><div class="fill" id="s2"></div></div></div>
+  <div class="src">Lack et al., BJSM 2015 · dolor de rodilla del corredor</div></div>
+ <div id="ex" class="abs">
+  <div class="exc card" id="x1"><div class="ic" style="display:flex;align-items:center;justify-content:center"><svg width="80" height="60"><path d="M6 50 L30 22 L56 22 L74 50" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>PUENTE<br>DE GLÚTEO</div>
+  <div class="exc card" id="x2"><div class="ic" style="display:flex;align-items:center;justify-content:center"><svg width="80" height="70"><path d="M8 58 L72 58 M30 58 L62 14" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/></svg></div>ABDUCCIONES<br>DE LADO</div>
+ </div>
+ <div id="pills" class="abs"><span id="p1"><b style="font-weight:400;color:#9C86F5">2</b> DÍAS / SEMANA</span><span id="p2"><b style="font-weight:400;color:#9C86F5">10</b> MIN</span><span id="p3">SIN GIMNASIO</span></div>
+ <div id="kmc" class="abs card"><svg width="760" height="460" viewBox="0 0 760 460">
+  <text x="0" y="50" font-family="A" font-size="46" fill="#A3A3A3" letter-spacing="3">KM POR SEMANA</text>
+  <g id="kb"></g>
+  <line x1="0" y1="420" x2="760" y2="420" stroke="#3a3354" stroke-width="6"/>
+  <g id="kx" opacity="0"><circle cx="640" cy="120" r="44" fill="#E5F38B"/><path d="M622 102 L658 138 M658 102 L622 138" stroke="#000" stroke-width="10" stroke-linecap="round"/></g>
+ </svg></div>
+ <div id="fisio" class="abs card"><h3>AL <span style="color:#9C86F5">FISIO</span> SI...</h3>
+  <div class="fl" id="f1"><b></b>EL DOLOR ES FUERTE</div><div class="fl" id="f2"><b></b>SE HINCHA</div><div class="fl" id="f3"><b></b>NO SE VA</div>
+  <div id="nodx">Esto no es un diagnóstico 😉</div></div>
+ <div id="sign" class="abs"><img src="brand/logo_cara.png"><span>MONCU</span></div>
+ <img id="cover" class="abs" src="moncu_rodilla_PORTADA.png">
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+const sm=x=>{x=clamp(x);return x*x*(3-2*x)};
+const back=x=>{x=clamp(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const NS='http://www.w3.org/2000/svg';
+function el(tag,at,par){const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);par.appendChild(e);return e}
+window.T={hook:0,vale:3.5,sosp:4.29,norod:6.0,prim:7.57,bien:9.18,cadera:9.99,recta:10.84,cansa:12.76,cae:14.46,zancada:15.65,dentro:17.12,miles:19.07,ahi:20.54,fatiga:21.69,estudios:24.5,molesta:27.05,trabajar:28.84,que:32.6,dias:33.39,ejer:34.7,diez:37.46,gym:38.4,golpe:39.98,factura:41.96,ojo:43.81,fuerte:44.36,hincha:45.51,fisio:47.16,diag:48.09,guarda:49.86,end:54.8};
+const G=$('grid');const GL=[];for(let i=0;i<14;i++)GL.push(el('line',{x1:0,y1:0,x2:0,y2:1920,stroke:'#fff','stroke-opacity':.03,'stroke-width':2},G));
+const GH=[];for(let i=0;i<24;i++)GH.push(el('line',{x1:0,y1:0,x2:1080,y2:0,stroke:'#fff','stroke-opacity':.03,'stroke-width':2},G));
+const DS=[];for(let i=0;i<12;i++)DS.push(el('rect',{x:0,y:1780,width:120,height:14,rx:7,fill:'#3a3354'},$('dashes')));
+const KB=[];[[22,0],[24,1],[26,2],[46,3]].forEach(([v,i])=>{const r=el('rect',{x:30+i*175,y:420,width:120,height:0,rx:14,fill:i===3?'#E5F38B':'#7B5CF0'},$('kb'));r._v=v;KB.push(r);
+ const tx=el('text',{x:90+i*175,y:400,'text-anchor':'middle','font-family':'A','font-size':48,fill:'#fff',opacity:0},$('kb'));tx.textContent=v;r._t=tx});
+for(let i=0;i<47;i++){const im=document.createElement('img');im.src='gif/m'+String(i).padStart(2,'0')+'.png';im.id='mf'+i;$('mono').appendChild(im)}
+let lastF=-1,last='',D=0,lt=null;
+function setTitle(h){if(h!==last){$('title').innerHTML=h;last=h}}
+function show(id,on){$(id).style.display=on?'inline':'none'}
+function pop(id,on,a){const e=$(id);e.style.opacity=on?1:0;e.style.transform=`scale(${on?.7+.3*back((window.__t-a)/.35):0})`}
+function render(t){
+ const T=window.T;window.__t=t;
+ GL.forEach((l,i)=>{const x=((i*90-t*12)%1260+1260)%1260-90;l.setAttribute('x1',x);l.setAttribute('x2',x)});
+ GH.forEach((l,i)=>{const y=((i*90+t*8)%2160+2160)%2160-120;l.setAttribute('y1',y);l.setAttribute('y2',y)});
+ // mono corriendo al inicio y al final
+ const monoOn=t<T.prim||t>=T.guarda;
+ if(lt===null||t<lt){D=0;lastF=-1;document.querySelectorAll('#mono img').forEach(i=>i.style.display='none')}else if(monoOn&&!(t>=T.sosp&&t<T.prim))D+=(t-lt);lt=t;
+ $('mono').style.display=monoOn?'block':'none';show('road',monoOn);
+ DS.forEach((d,i)=>{const x=((i*200-D*950)%2400+2400)%2400-200;d.setAttribute('x',x)});
+ const fr=(t>=T.sosp&&t<T.prim)?11:Math.floor(D*24)%47;if(fr!==lastF){if(lastF>=0)$('mf'+lastF).style.display='none';$('mf'+fr).style.display='block';lastF=fr}
+ // zoom a la rodilla del mono
+ const zq=(t>=T.sosp&&t<T.prim)?sm((t-T.sosp)/.6):0;
+ $('mono').style.transformOrigin='374px 385px';$('mono').style.transform=`translate(${-84*zq}px,${-245*zq}px) scale(${1+.9*zq})`;
+ const mk=$('mknee');const kOn=t>=T.sosp+.3&&t<T.prim;mk.setAttribute('opacity',kOn?1:0);
+ const mcx=624-84*zq,mcy=1495-245*zq; mk.setAttribute('cx',mcx);mk.setAttribute('cy',mcy);mk.setAttribute('r',(62+Math.sin(t*6)*6)*(1+.9*zq));mk.setAttribute('transform',`rotate(${t*40} ${mk.getAttribute('cx')} ${mk.getAttribute('cy')})`);
+ if(t>=T.norod){mk.setAttribute('stroke','#4A4178')}else mk.setAttribute('stroke','#9C86F5');
+ // contador km
+ const km=Math.min(8,8*ease(t/2.6));$('kmv').textContent='KM '+km.toFixed(1).replace('.',',');
+ $('chip').style.opacity=t<T.prim?1:0;
+ // títulos
+ const sc=[[T.hook,'¿Te duele la rodilla<br>al pasar del <b>km 8</b>?'],[T.sosp,'Tengo un<br><i>sospechoso</i>...'],[T.norod,'...y no es<br>tu <b>rodilla</b>.'],
+  [T.prim,'Primeros km:<br><i>todo bien</i>.'],[T.cansa,'Pero el glúteo<br>se <i>cansa</i>...'],[T.dentro,'...y la rodilla<br>se va <i>hacia dentro</i>.'],[T.miles,'Miles de pasos<br>así...'],
+  [T.fatiga,'El dolor llega<br>con la <i>fatiga</i>.'],[T.estudios,'Lo que dicen<br>los <i>estudios</i>:'],[T.que,'¿Qué hacer?'],[T.golpe,'Y no subas los km<br><i>de golpe</i>.'],[T.ojo,'Ojo.'],
+  [T.guarda,'Guárdalo y pásaselo<br>al que se queja de<br>la <b>rodilla</b> a partir<br>del <i>8</i>.']];
+ let ki=0;sc.forEach((s,i)=>{if(t>=s[0])ki=i});setTitle(sc[ki][1]);const s0=sc[ki][0];
+ $('title').style.transform=`scale(${.55+.45*back((t-s0)/.3)}) rotate(${ki%2?1.2:-1.2}deg)`;
+ $('title').style.top=(t>=T.sosp&&t<T.prim)?'260px':'270px';
+ // pierna esquemática
+ const legOn=t>=T.prim&&t<T.estudios;show('leg',legOn);
+ $('glu').style.opacity=legOn?1:0;
+ if(legOn){
+  const g=1-ease((t-T.cansa)/2.2);$('glf').style.width=(g*100)+'%';$('glv').textContent=Math.round(g*100)+' %';$('glf').style.background=g<.35?'#E5F38B':'#7B5CF0';
+  const drop=sm((t-T.cae)/.8)*1;const inw=sm((t-T.dentro)/.7);
+  const wob=t>=T.miles?Math.sin((t-T.miles)*7)*.25:0;
+  const tilt=-9*(drop+wob*drop);
+  $('pelvis').setAttribute('transform',`rotate(${-tilt} 540 915)`);
+  const hx=540,hy=915+0, kx=540+(-95)*(inw*(1+wob)), ky=1290, ax=540, ay=1640;
+  $('femur').setAttribute('x1',hx);$('femur').setAttribute('y1',hy);$('femur').setAttribute('x2',kx);$('femur').setAttribute('y2',ky);
+  $('tibia').setAttribute('x1',kx);$('tibia').setAttribute('y1',ky);
+  $('kneeJ').setAttribute('cx',kx);$('kneeGlow').setAttribute('cx',kx);
+  $('kneeJ').setAttribute('fill',inw>.5?'#E5F38B':'#7B5CF0');$('kneeGlow').setAttribute('opacity',inw>.5?(.25+.15*Math.sin(t*8)):0);
+  $('arrow').setAttribute('x',kx-120);$('arrow').setAttribute('y',1320);$('arrow').setAttribute('opacity',t>=T.dentro&&t<T.miles?1:0);
+  $('steps').textContent=t>=T.miles?(Math.round(1000+9000*ease((t-T.miles)/1.6)).toLocaleString('es-ES')+' pasos'):'';
+ }
+ const st=t>=T.ahi&&t<T.estudios;$('stamp').style.opacity=st?1:0;$('stamp').style.transform=`scale(${st?back((t-T.ahi)/.3):0}) rotate(-6deg)`;
+ // estudio
+ const so=t>=T.estudios&&t<T.que;pop('study',so,T.estudios);
+ $('s1').style.width=(38*ease((t-T.molesta)/1))+'%';$('s2').style.width=(72*ease((t-T.trabajar)/1.2))+'%';
+ // ejercicios
+ const eo=t>=T.dias&&t<T.golpe;
+ [['x1',T.ejer],['x2',T.ejer+.9]].forEach(([id,a])=>{const e=$(id);const on=eo&&t>=a;e.style.opacity=on?1:0;e.style.transform=`translateX(${on?(1-back((t-a)/.35))*700:700}px)`});
+ [['p1',T.dias],['p2',T.diez],['p3',T.gym]].forEach(([id,a])=>{const e=$(id);const on=eo&&t>=a;e.style.opacity=on?1:0;e.style.transform=`scale(${on?back((t-a)/.3):0})`});
+ $('pills').style.top=t>=T.ejer?'1350px':'800px';
+ // km de golpe
+ const ko=t>=T.golpe&&t<T.ojo;pop('kmc',ko,T.golpe);
+ KB.forEach((r,i)=>{const a=T.golpe+.3+i*.35;const h=r._v*7*ease((t-a)/.4);r.setAttribute('y',420-h);r.setAttribute('height',h);r._t.setAttribute('y',410-h);r._t.setAttribute('opacity',t>=a+.2?1:0)});
+ $('kx').setAttribute('opacity',t>=T.factura?1:0);
+ // fisio
+ const fo=t>=T.ojo&&t<T.guarda;pop('fisio',fo,T.ojo);
+ [['f1',T.fuerte],['f2',T.hincha],['f3',T.hincha+.6]].forEach(([id,a])=>$(id).style.opacity=clamp((t-a)/.2));
+ $('nodx').style.opacity=clamp((t-T.diag)/.2);
+ $('sign').style.opacity=clamp((t-T.guarda-.5)/.4);
+ $('cover').style.display=t<1/30?'block':'none';
+}
+window.render=render;render(0);
+</script></body></html>

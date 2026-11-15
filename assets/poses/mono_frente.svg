@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1000" viewBox="0 900 1080 1000">
+ <!-- cuerpo: camiseta blanca y pantalón negro (plano de cintura para arriba) -->
+ <path d="M330 1490 Q 540 1440 750 1490 L 790 1900 L 290 1900 Z" fill="#fff" stroke="#000" stroke-width="18" stroke-linejoin="round"/>
+ <path d="M300 1820 L 780 1820 L 790 1910 L 290 1910 Z" fill="#000"/>
+ <path d="M470 1478 Q 540 1530 610 1478" fill="none" stroke="#000" stroke-width="14" stroke-linecap="round"/>
+ <!-- brazo bajado (izquierda de la imagen) -->
+ <path d="M345 1530 Q 270 1650 300 1800" fill="none" stroke="#000" stroke-width="118" stroke-linecap="round"/>
+ <path d="M345 1530 Q 270 1650 300 1800" fill="none" stroke="#fff" stroke-width="84" stroke-linecap="round"/>
+ <!-- brazo levantado explicando (derecha de la imagen) -->
+ <path d="M735 1530 Q 860 1450 870 1290" fill="none" stroke="#000" stroke-width="118" stroke-linecap="round"/>
+ <path d="M735 1530 Q 860 1450 870 1290" fill="none" stroke="#fff" stroke-width="84" stroke-linecap="round"/>
+ <!-- mano con el índice arriba -->
+ <rect x="848" y="1110" width="54" height="150" rx="27" fill="#fff" stroke="#000" stroke-width="14"/>
+ <ellipse cx="870" cy="1280" rx="72" ry="62" fill="#fff" stroke="#000" stroke-width="16"/>
+ <path d="M820 1268 Q 850 1258 880 1268 M818 1300 Q 850 1290 884 1300" fill="none" stroke="#000" stroke-width="10" stroke-linecap="round"/>
+ <rect x="855" y="1150" width="40" height="100" rx="20" fill="#fff"/>
+ <!-- orejas -->
+ <circle cx="305" cy="1235" r="88" fill="#000"/><circle cx="775" cy="1235" r="88" fill="#000"/>
+ <circle cx="312" cy="1240" r="54" fill="#fff"/><circle cx="768" cy="1240" r="54" fill="#fff"/>
+ <path d="M300 1210 Q 280 1245 312 1275" fill="none" stroke="#000" stroke-width="12" stroke-linecap="round"/>
+ <path d="M780 1210 Q 800 1245 768 1275" fill="none" stroke="#000" stroke-width="12" stroke-linecap="round"/>
+ <!-- cabeza -->
+ <circle cx="540" cy="1215" r="235" fill="#000"/>
+ <ellipse cx="540" cy="1328" rx="208" ry="128" fill="#000"/>
+ <!-- cara (forma de 8 como la del mono oficial) -->
+ <g>
+  <ellipse cx="482" cy="1175" rx="88" ry="105" fill="#fff"/>
+  <ellipse cx="598" cy="1175" rx="88" ry="105" fill="#fff"/>
+  <ellipse cx="540" cy="1325" rx="190" ry="112" fill="#fff"/>
+  <rect x="470" y="1140" width="140" height="140" fill="#fff"/>
+ </g>
+ <!-- ojos y sonrisa -->
+ <ellipse cx="490" cy="1170" rx="25" ry="42" fill="#000"/>
+ <ellipse cx="590" cy="1170" rx="25" ry="42" fill="#000"/>
+ <path d="M448 1315 Q 540 1405 632 1315" fill="none" stroke="#000" stroke-width="20" stroke-linecap="round"/>
+</svg>

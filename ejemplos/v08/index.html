@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:A;src:url(node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+@font-face{font-family:P;src:url(node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2);font-weight:700}
+html,body{margin:0;background:#000}
+#s{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:A,sans-serif;background:radial-gradient(ellipse at 50% 55%,#261F4A 0%,#15112A 55%,#0B0A12 100%)}
+.abs{position:absolute}
+.t{color:#FFFFFF;text-align:center;letter-spacing:1px;text-shadow:0 4px 18px rgba(0,0,0,.6)}
+#chip{left:0;right:0;top:110px;text-align:center;z-index:21}
+#chip span{display:inline-block;background:rgba(255,255,255,.06);color:#fff;font-size:42px;letter-spacing:5px;padding:8px 30px 10px;border:3px solid rgba(255,255,255,.22);border-radius:999px}
+#title{left:40px;right:40px;top:290px;font-size:120px;line-height:1.04;z-index:20}
+#title i{font-style:normal;color:#E5F38B}#title b{font-weight:400;color:#7B5CF0}
+#title small{display:block;font-size:80px;line-height:1.08;margin-top:24px}
+.src{left:0;right:0;text-align:center;font-family:P;font-size:30px;color:#6f6890;z-index:20}
+#stage{left:0;top:0;width:1080px;height:1920px;z-index:10}
+.card{background:#141414;border:3px solid #2c2840;border-radius:40px}
+#study{left:140px;right:140px;top:820px;padding:40px;opacity:0}
+#sn{font-size:260px;line-height:1;color:#7B5CF0}
+#sl{font-family:P;font-size:52px;color:#A3A3A3}
+#verdict{left:0;right:0;top:1330px;text-align:center;opacity:0}
+#verdict span{display:inline-block;white-space:nowrap;border:10px solid #E5F38B;border-radius:22px;color:#E5F38B;font-size:62px;letter-spacing:4px;padding:4px 34px 12px;background:rgba(11,10,18,.85)}
+#bars{left:90px;right:90px;top:860px;padding:46px 50px;opacity:0}
+.lab{display:flex;justify-content:space-between;font-size:70px;color:#fff;margin-bottom:12px}
+.lab span:last-child{font-size:80px}
+.bar{height:60px;border-radius:999px;background:rgba(255,255,255,.07);overflow:hidden;margin-bottom:40px}
+.fill{height:100%;border-radius:999px;background:#7B5CF0}
+#big9{left:0;right:0;top:1380px;font-size:150px;opacity:0}
+#mono img{position:absolute;left:0;top:0;width:580px;height:580px;display:none}
+</style></head><body>
+<div id="s">
+ <svg id="stage" class="abs" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+   <symbol id="zap" viewBox="0 0 440 210">
+    <path d="M34 150 L 30 74 C 29 50 44 36 68 38 L 104 42 C 124 44 136 58 148 70 C 168 90 196 86 226 88 L 324 98 C 372 104 404 120 410 146 L 410 150 Z" fill="currentColor"/>
+    <path d="M150 72 L 170 98 M 178 82 L 196 104 M 206 88 L 222 108 M 234 92 L 248 110" stroke="#2A2350" stroke-width="8" stroke-linecap="round"/>
+    <path d="M96 128 C 160 104 240 112 330 132" fill="none" stroke="#7B5CF0" stroke-width="12" stroke-linecap="round"/>
+    <path d="M18 148 L 414 148 C 416 170 400 186 378 186 L 54 186 C 30 186 16 170 18 148 Z" fill="#7B5CF0"/>
+   </symbol>
+  </defs>
+  <g id="grid"></g>
+  <!-- escena 1: la zapatilla aterriza de talón -->
+  <g id="s1"><line x1="140" y1="1430" x2="940" y2="1430" stroke="#3a3354" stroke-width="10" stroke-linecap="round"/>
+   <g id="shoe1"><use href="#zap" x="-220" y="-190" width="440" height="210" style="color:#E9E3FD"/></g>
+   <circle id="ring1" cx="0" cy="0" r="60" fill="none" stroke="#E5F38B" stroke-width="10" stroke-dasharray="16 12"/></g>
+  <!-- escena 2: 9 de cada 10 -->
+  <g id="s2"></g>
+  <!-- escena 6-7: dónde cae el pie -->
+  <g id="s6">
+   <line x1="120" y1="1500" x2="960" y2="1500" stroke="#3a3354" stroke-width="10" stroke-linecap="round"/>
+   <line x1="420" y1="930" x2="420" y2="1500" stroke="#A3A3A3" stroke-width="6" stroke-dasharray="18 14"/>
+   <circle cx="420" cy="900" r="38" fill="#7B5CF0"/>
+   <text x="470" y="915" font-family="A" font-size="52" fill="#A3A3A3" letter-spacing="3">TU CADERA</text>
+   <g id="foot"><use href="#zap" x="-110" y="-95" width="220" height="105" style="color:#E9E3FD"/></g>
+   <g id="brake" font-family="A" font-size="64" fill="#E9E3FD"><text id="brk" x="0" y="0" text-anchor="middle">FRENAS</text>
+    <path id="brkl" d="" stroke="#E9E3FD" stroke-width="8" stroke-linecap="round" fill="none"/></g>
+   <g id="okm"><circle cx="0" cy="0" r="46" fill="#E5F38B"/><path d="M-20 0 L-5 16 L22 -16" stroke="#000" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+   <g id="steps"></g>
+  </g>
+ </svg>
+ <div id="chip" class="abs"><span style="display:inline-flex;align-items:center;gap:16px"><img src="brand/logo_cara.png" style="width:52px">DESMONTANDO MITOS DEL RUNNING</span></div>
+ <div id="intro" class="abs" style="left:0;top:0;width:1080px;height:1920px;z-index:9">
+  <div id="cam1" class="abs" style="left:0;top:0;width:1080px;height:1920px">
+   <svg class="abs" style="left:0;top:0" width="1080" height="1920"><line x1="-200" y1="1430" x2="1280" y2="1430" stroke="#3a3354" stroke-width="10"/><g id="dash1"></g></svg>
+   <div id="mono" class="abs" style="left:250px;top:926px;width:580px;height:580px"></div>
+  </div>
+ </div>
+ <div id="sign" class="abs" style="left:0;right:0;top:1500px;display:flex;justify-content:center;align-items:center;gap:20px;z-index:30;opacity:0"><img src="brand/logo_cara.png" style="width:110px"><span style="font-size:72px;color:#fff;letter-spacing:10px">MONCU</span></div>
+ <div id="title" class="abs t"></div>
+ <div id="big9" class="abs t"><span style="color:#E5F38B">9</span> de cada <span style="color:#7B5CF0">10</span></div>
+ <div id="src2" class="abs src" style="top:1640px">Larson et al. 2011 · 936 corredores en el km 10 de una carrera</div>
+ <div id="study" class="abs card t"><div id="sn">0</div><div id="sl">estudios revisados</div></div>
+ <div id="verdict" class="abs"><span>¿MÁS LESIONES? NO DEMOSTRADO</span></div>
+ <div id="src3" class="abs src" style="top:1640px">Anderson et al., Sports Medicine 2020</div>
+ <div id="bars" class="abs card">
+  <div class="lab"><span>RODILLA</span><span id="a1" style="color:#A3A3A3">↓</span></div><div class="bar"><div class="fill" id="b1"></div></div>
+  <div class="lab"><span>GEMELO Y TOBILLO</span><span id="a2" style="color:#E5F38B">↑</span></div><div class="bar" style="margin-bottom:0"><div class="fill" id="b2"></div></div>
+ </div>
+ <img id="cover" class="abs" src="moncu_talon_PORTADA.png" style="left:0;top:0;width:1080px;z-index:60;display:none">
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+const sm=x=>{x=clamp(x);return x*x*(3-2*x)};
+const back=x=>{x=clamp(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const NS='http://www.w3.org/2000/svg';
+function el(tag,at,par){const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);par.appendChild(e);return e}
+window.T={hook:0.12,tranq:1.38,carrera:3.87,sabes:7.35,nueve:9.24,revision:11.29,verdict:14.0,esmas:17.17,puntillas:17.96,rodilla:21.49,gemelo:22.67,poreso:24.48,nocambies:26.17,importa:27.73,aterriza:30.29,frenas:32.57,truco:34.06,pasos:34.92,debajo:36.81,nodelante:38.66,guarda:39.72,end:43.2};
+// cuadrícula de "laboratorio" que se desplaza despacio
+const G=$('grid');const GL=[];for(let i=0;i<14;i++)GL.push(el('line',{x1:0,y1:0,x2:0,y2:1920,stroke:'#ffffff','stroke-opacity':.035,'stroke-width':2},G));
+const GH=[];for(let i=0;i<24;i++)GH.push(el('line',{x1:0,y1:0,x2:1080,y2:0,stroke:'#ffffff','stroke-opacity':.035,'stroke-width':2},G));
+// 10 zapatillas
+const Z=[];for(let i=0;i<10;i++){const g=el('g',{},$('s2'));const u=el('use',{href:'#zap',x:0,y:0,width:220,height:105},g);u.style.color='#4A4178';g._x=62+(i%5)*192;g._y=880+Math.floor(i/5)*200;Z.push({g,u})}
+const ST=[];for(let i=0;i<6;i++){const g=el('g',{},$('steps'));el('ellipse',{cx:0,cy:0,rx:34,ry:16,fill:'#E9E3FD'},g);ST.push(g)}
+for(let i=0;i<47;i++){const im=document.createElement('img');im.src='gif/m'+String(i).padStart(2,'0')+'.png';im.id='mf'+i;$('mono').appendChild(im)}
+const DS=[];for(let i=0;i<10;i++)DS.push(el('rect',{x:0,y:1470,width:110,height:12,rx:6,fill:'#2A2440'},$('dash1')));
+let lastF=-1,PH=0,lt=null;
+let last='';
+function setTitle(h){if(h!==last){$('title').innerHTML=h;last=h}}
+function show(id,on){$(id).style.display=on?'inline':'none'}
+function render(t){
+ const T=window.T;
+ GL.forEach((l,i)=>{const x=((i*90-t*12)%1260+1260)%1260-90;l.setAttribute('x1',x);l.setAttribute('x2',x)});
+ GH.forEach((l,i)=>{const y=((i*90+t*8)%2160+2160)%2160-120;l.setAttribute('y1',y);l.setAttribute('y2',y)});
+ // títulos
+ const sc=[[T.hook,'¿Pisas de<br><i>talón</i>?'],[2.25,'¿Pisas de<br><i>talón</i>?<small>Tranquilo,<br>no te vas a romper.</small>'],
+  [T.carrera,'Midieron a casi<br><b>1.000</b> corredores<br>populares.'],[T.sabes,'¿Cuántos pisaban<br>de <i>talón</i>?'],[T.nueve,'¿Cuántos pisaban<br>de <i>talón</i>?'],
+  [T.revision,'¿Y las<br><i>lesiones</i>?'],[T.esmas,'Es más...'],[T.puntillas,'Si te pasas a<br><i>puntillas</i>,<br>la carga no<br>desaparece.'],[T.rodilla,'Se <i>mueve</i>.'],
+  [T.poreso,'Si no te<br>duele nada...'],[T.nocambies,'Si no te<br>duele nada...<small><span style="color:#E5F38B">no cambies tu pisada.</span></small>'],
+  [T.importa,'Lo que importa:<br><i>dónde cae el pie</i>.'],[T.truco,'El truco:'],[T.pasos,'Pasos un pelín<br><i>más cortos</i>.'],[T.debajo,'Que caiga<br><i>debajo de ti</i>.'],[T.nodelante,'Que caiga<br><i>debajo de ti</i>.<small>No delante.</small>'],
+  [T.guarda,'Guárdalo y mándaselo<br>a ese amigo<br>obsesionado con<br>su <i>pisada</i>.']];
+ let ki=0;sc.forEach((s,i)=>{if(t>=s[0])ki=i});setTitle(sc[ki][1]);const s0=sc[ki][0];
+ const soft=[2.25,T.nueve,T.nocambies,T.nodelante].includes(s0);
+ $('title').style.transform=`scale(${soft?1:.55+.45*back((t-s0)/.3)}) rotate(${ki%2?1.2:-1.2}deg)`;
+ $('title').style.top=(t>=T.poreso&&t<T.importa)?'560px':(t>=T.guarda?'520px':'290px');
+ // escena 1: zapatilla cae y apoya el talón
+ const Z0=1.25,Z1=2.05,X0=2.25; // empieza zoom, termina zoom, entra la ilustración
+ const introOn=t<X0+.3;$('intro').style.display=introOn?'block':'none';
+ if(introOn){
+  if(lt===null||t<lt){PH=0;lastF=-1;document.querySelectorAll('#mono img').forEach(i=>i.style.display='none')}else if(t<Z0)PH+=(t-lt);lt=t;
+  let fr=Math.floor(PH*24)%47; if(t>=Z0-.2){fr=12}
+  if(fr!==lastF){if(lastF>=0)$('mf'+lastF).style.display='none';$('mf'+fr).style.display='block';lastF=fr}
+  DS.forEach((d,i)=>{const x=((i*160-(t<Z0?t:Z0)*900)%1600+1600)%1600-200;d.setAttribute('x',x)});
+  const u=sm((t-Z0)/(Z1-Z0));const z=1+2.4*u;$('cam1').style.transformOrigin='690px 1410px';$('cam1').style.transform=`translate(${(540-690)*u}px,${(1150-1410)*u}px) scale(${z})`;
+  $('title').style.opacity=1-clamp((t-Z0)/.25)+clamp((t-X0)/.3);
+  $('intro').style.opacity=1-clamp((t-X0)/.3);
+ }
+ if(!introOn)$('title').style.opacity=1;
+ const toe=t>=T.puntillas&&t<T.rodilla;const on1=(t>=X0&&t<T.carrera)||toe;show('s1',on1);$('stage').style.opacity=1;
+ if(toe){const q=t-T.puntillas;const drop=Math.min(1,q/.45);const yy=1150+drop*drop*280;const ang=18-(q>.45?10*ease((q-.45)/.25):0);
+  $('shoe1').setAttribute('transform',`translate(540 ${Math.min(yy,1430)}) rotate(${ang} 200 0) scale(1.15)`);
+  $('ring1').setAttribute('cx',770);$('ring1').setAttribute('cy',1412);$('ring1').setAttribute('opacity',q>.45?1:0);$('ring1').setAttribute('r',56+Math.sin(t*6)*6);$('ring1').setAttribute('transform',`rotate(${t*40} 770 1412)`)}
+ else if(on1){const q=t-X0;const y=1430-ease(q/.5)*0;const drop=Math.min(1,q/.45);const yy=1100+drop*drop*330;
+  const ang=-22+(q>.45?14*ease((q-.45)/.25):0);
+  $('shoe1').setAttribute('transform',`translate(540 ${Math.min(yy,1430)}) rotate(${ang} -180 0) scale(1.15)`);
+  // talón: esquina izquierda inferior de la zapatilla
+  const hx=540-205*1.15*Math.cos(ang*Math.PI/180), hy=Math.min(yy,1430)-0;
+  $('ring1').setAttribute('cx',540-200);$('ring1').setAttribute('cy',1410);
+  const rq=q-.45;$('ring1').setAttribute('opacity',rq>0?1:0);$('ring1').setAttribute('r',60+Math.sin(t*6)*6);
+  $('ring1').setAttribute('transform',`rotate(${t*40} ${340} 1410)`)}
+ // escena 2: 9 de cada 10
+ const on2=t>=T.carrera&&t<T.revision;show('s2',on2);
+ Z.forEach((z,i)=>{const q=t-(T.carrera+.15+i*.08);z.g.setAttribute('transform',`translate(${z.g._x} ${z.g._y}) scale(${on2?.85*back(q/.3):0})`);
+  const lit=i<9&&t>=T.nueve+i*.12;z.u.style.color=lit?'#E5F38B':'#4A4178'});
+ $('big9').style.opacity=t>=T.nueve+.9&&t<T.revision?1:0;$('big9').style.transform=`scale(${back((t-T.nueve-.9)/.3)})`;
+ $('src2').style.opacity=on2&&t>=T.carrera+.5?1:0;
+ // escena 3: 53 estudios
+ const on3=t>=T.revision&&t<T.esmas;const q3=t-T.revision;
+ $('study').style.opacity=on3?1:0;$('study').style.transform=`scale(${on3?.7+.3*back(q3/.35):0})`;
+ $('sn').textContent=Math.round(53*ease((q3-.2)/1.4));
+ $('verdict').style.opacity=on3&&t>=T.verdict?1:0;$('verdict').style.transform=`scale(${back((t-T.verdict)/.3)}) rotate(-4deg)`;
+ $('src3').style.opacity=on3?1:0;
+ // escena 4: la carga se mueve
+ const on4=t>=T.rodilla&&t<T.poreso;$('bars').style.opacity=on4?1:0;$('bars').style.transform=`scale(${on4?.7+.3*back((t-T.rodilla)/.35):0})`;
+ $('b1').style.width=(70-35*ease((t-T.rodilla-.3)/1))+'%';
+ $('b2').style.width=(35+45*ease((t-T.gemelo)/1))+'%';$('b2').style.background=t>=T.gemelo?'#E5F38B':'#7B5CF0';
+ $('a2').style.opacity=t>=T.gemelo?1:0;$('a1').style.opacity=t>=T.rodilla+.4?1:0;
+ // escena 6-7: dónde cae el pie
+ const on6=t>=T.importa&&t<T.guarda;show('s6',on6);
+ if(on6){
+  // posición del pie: entra, cae por delante (aterriza), luego se acerca debajo de la cadera
+  let fx=760,fy=1500,rot=-14;
+  if(t<T.aterriza){fx=760;fy=1300+Math.sin(t*3)*12;rot=-10}
+  else if(t<T.debajo){const q=t-T.aterriza;fy=1300+200*ease(q/.35);rot=-14+(q>.35?10*ease((q-.35)/.3):0)}
+  else {const q=t-T.debajo;fx=760-320*sm(q/.8);fy=1500;rot=-4+4*sm(q/.8)}
+  $('foot').setAttribute('transform',`translate(${fx} ${fy}) rotate(${rot})`);
+  const br=t>=T.frenas&&t<T.debajo;$('brake').style.display=br?'inline':'none';
+  if(br){const q=t-T.frenas;$('brk').setAttribute('x',fx+20);$('brk').setAttribute('y',1270-Math.sin(q*20)*4*clamp(1-q/.6));
+   $('brkl').setAttribute('d',`M${fx+150} 1450 l60 0 M${fx+160} 1410 l45 0 M${fx+150} 1370 l30 0`)}
+  const ok=t>=T.debajo+.8;$('okm').style.display=ok?'inline':'none';if(ok)$('okm').setAttribute('transform',`translate(420 1640) scale(${back((t-T.debajo-.8)/.3)})`);
+  // huellas acercándose (pasos más cortos)
+  ST.forEach((s,i)=>{const on=t>=T.pasos&&t<T.debajo;const gap=230-110*sm((t-T.pasos)/1.2);const x=150+i*gap;s.style.display=on?'inline':'none';
+   s.setAttribute('transform',`translate(${x} ${1580+(i%2?24:-24)}) scale(${back((t-T.pasos-i*.08)/.25)})`)});
+ }
+ $('chip').style.opacity=t>=T.guarda?.6:1;
+ $('sign').style.opacity=clamp((t-T.guarda-.6)/.4);
+ $('cover').style.display=t<1/30?'block':'none';
+}
+window.render=render;render(0);
+</script></body></html>

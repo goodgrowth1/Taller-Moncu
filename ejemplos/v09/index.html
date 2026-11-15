@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:A;src:url(node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+@font-face{font-family:P;src:url(node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2);font-weight:700}
+html,body{margin:0;background:#000}
+#s{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:A,sans-serif;background:linear-gradient(180deg,#0B0A12 0%,#1A1531 55%,#2E2557 100%)}
+.abs{position:absolute}
+.t{color:#FFFFFF;text-align:center;letter-spacing:1px;text-shadow:0 4px 18px rgba(0,0,0,.6)}
+#title{left:40px;right:40px;top:280px;font-size:120px;line-height:1.04;z-index:20}
+#title i{font-style:normal;color:#E5F38B}#title b{font-weight:400;color:#7B5CF0}
+#title small{display:block;font-size:84px;line-height:1.08;margin-top:22px}
+#chips{left:0;right:0;top:1180px;text-align:center;z-index:19}
+#chips span{display:inline-block;margin:10px;background:#141414;border:3px solid #2c2840;color:#fff;font-size:62px;padding:8px 30px 12px;border-radius:999px;opacity:0}
+#study{left:80px;right:80px;top:820px;z-index:19;background:#141414;border:3px solid #2c2840;border-radius:40px;padding:44px 50px 34px;opacity:0}
+.row{display:flex;align-items:center;gap:30px;margin-bottom:30px;font-size:66px;color:#fff;line-height:1.05}
+.ic{flex:none;width:96px;height:96px;border-radius:50%;text-align:center;line-height:96px;font-size:64px}
+#src{font-family:P;font-size:30px;color:#6f6890}
+#timer{left:390px;top:820px;width:300px;height:300px;z-index:18;opacity:0}
+#coin{left:0;right:0;top:860px;text-align:center;z-index:19;opacity:0}
+#coin img{width:230px;filter:drop-shadow(0 20px 40px rgba(0,0,0,.5))}
+#slog{left:0;right:0;top:330px;text-align:center;z-index:22;font-size:190px;line-height:1.02}
+#slog span{display:block;color:#fff;opacity:0}
+#slog span.l{color:#E5F38B}
+#sign{left:0;right:0;top:1780px;z-index:30;display:flex;justify-content:center;align-items:center;gap:18px;opacity:0}
+#sign img{width:80px}#sign span{font-size:52px;color:#fff;letter-spacing:8px}
+#mono{left:250px;top:1110px;width:580px;height:580px;z-index:10}
+#mono img{position:absolute;left:0;top:0;width:580px;height:580px;display:none}
+</style></head><body>
+<div id="s">
+ <svg class="abs" style="left:0;top:0" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <g id="stars"></g>
+  <rect x="0" y="1640" width="1080" height="24" fill="#3a3354"/>
+  <rect x="0" y="1664" width="1080" height="300" fill="#141414"/>
+  <g id="dashes"></g>
+  <g id="chain"></g>
+ </svg>
+ <svg id="timer" class="abs" viewBox="0 0 300 300"><circle cx="150" cy="150" r="125" fill="none" stroke="rgba(255,255,255,.08)" stroke-width="26"/><circle id="tarc" cx="150" cy="150" r="125" fill="none" stroke="#E5F38B" stroke-width="26" stroke-linecap="round" transform="rotate(-90 150 150)" stroke-dasharray="785" stroke-dashoffset="785"/><text id="tt" x="150" y="175" text-anchor="middle" font-family="A" font-size="96" fill="#fff">0'</text></svg>
+ <div id="mono" class="abs"></div>
+ <div id="title" class="abs t"></div>
+ <div id="chips" class="abs"><span id="c0">CANSANCIO</span><span id="c1">CURRO</span><span id="c2">PLANES</span></div>
+ <div id="study" class="abs">
+  <div class="row" id="r1" style="opacity:0"><div class="ic" style="background:#E5F38B;color:#000">✓</div><div>Fallas <span style="color:#7B5CF0">1</span> día suelto:<br><span style="color:#E5F38B">el hábito sigue</span></div></div>
+  <div class="row" id="r2" style="opacity:0"><div class="ic" style="background:#7B5CF0;color:#fff">✕</div><div>Encadenas fallos:<br>el hábito <span style="color:#E5F38B">se rompe</span></div></div>
+  <div id="src">Lally et al., European Journal of Social Psychology, 2010</div>
+ </div>
+ <div id="coin" class="abs t"><img src="brand/moneda_moncu.png"><div style="font-size:84px;margin-top:10px">Cada salida <span style="color:#E5F38B">suma</span>.</div></div>
+ <div id="slog" class="abs t"><span id="w1">CORRE.</span><span id="w2">GANA.</span><span id="w3" class="l">¡CANJEA!</span></div>
+ <div id="sign" class="abs"><img src="brand/logo_cara.png"><span>MONCU</span></div>
+ <img id="cover" class="abs" src="moncu_dos_dias_PORTADA.png" style="left:0;top:0;width:1080px;z-index:60;display:none">
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const clamp=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+const sm=x=>{x=clamp(x);return x*x*(3-2*x)};
+const back=x=>{x=clamp(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const sd=i=>{const x=Math.sin(i*127.1)*43758.5453;return x-Math.floor(x)};
+const NS='http://www.w3.org/2000/svg';
+function el(tag,at,par){const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);par.appendChild(e);return e}
+window.T={hook:0,nopasa:1.61,problema:2.75,manana:3.98,dia:5.08,excusas:7.04,vale:9.96,tampoco:10.86,diamalo:12.64,costumbre:14.01,ciencia:15.22,suelto:16.67,encadenar:19.31,permitete:21.82,nunca:23.64,apetece:25.71,veinte:27.13,hilo:28.94,moncu:31.18,suma:32.91,corre:36.12,gana:36.7,canjea:37.64,end:41.3};
+const ST=[];for(let i=0;i<40;i++)ST.push(el('circle',{cx:sd(i+50)*1080,cy:40+sd(i+90)*1000,r:1.4+sd(i+7)*2,fill:'#E9E3FD'},$('stars')));
+const DS=[];for(let i=0;i<12;i++)DS.push(el('rect',{x:0,y:1780,width:120,height:14,rx:7,fill:'#3a3354'},$('dashes')));
+// cadena: 6 eslabones (L M X J V S)
+const CH=$('chain');const days=['L','M','X','J','V','S'];const L=[];
+for(let i=0;i<6;i++){const g=el('g',{},CH);const r=el('rect',{x:-95,y:-55,width:190,height:110,rx:55,fill:'none','stroke-width':22,'stroke-linecap':'round'},g);
+ const tx=el('text',{x:0,y:130,'text-anchor':'middle','font-family':'A','font-size':54,fill:'#A3A3A3'},g);tx.textContent=days[i];g._r=r;g._x=165+i*150;L.push(g)}
+for(let i=0;i<47;i++){const im=document.createElement('img');im.src='gif/m'+String(i).padStart(2,'0')+'.png';im.id='mf'+i;$('mono').appendChild(im)}
+let lastF=-1,last='',D=0,lt=null;
+function setTitle(h){if(h!==last){$('title').innerHTML=h;last=h}}
+function render(t){
+ const T=window.T;
+ const runOn=t<T.dia||(t>=T.apetece&&t<T.moncu);
+ if(lt===null||t<lt){D=0;lastF=-1;document.querySelectorAll('#mono img').forEach(i=>i.style.display='none')}else if(runOn)D+=(t-lt);lt=t;
+ ST.forEach((c,i)=>c.setAttribute('opacity',(.1+.25*(.5+.5*Math.sin(t*(.8+sd(i)*1.6)+i))).toFixed(3)));
+ DS.forEach((d,i)=>{const x=((i*200-D*950)%2400+2400)%2400-200;d.setAttribute('x',x)});
+ $('mono').style.opacity=runOn?1:0;
+ const fr=Math.floor(D*24)%47;if(fr!==lastF){if(lastF>=0)$('mf'+lastF).style.display='none';$('mf'+fr).style.display='block';lastF=fr}
+ // títulos
+ const sc=[[T.hook,'¿Hoy no has<br>salido a <i>correr</i>?'],[T.nopasa,'¿Hoy no has<br>salido a <i>correr</i>?<small>No pasa nada.</small>'],[T.problema,'El problema<br>de verdad...'],[T.manana,'...es <i>mañana</i>.'],
+  [T.dia,'Un día se le escapa<br>a <i>cualquiera</i>.'],[T.tampoco,'Si mañana<br><i>tampoco</i> sales...'],[T.diamalo,'...ya no es<br>un día malo.'],[T.costumbre,'Es una<br><i>costumbre</i>.'],
+  [T.ciencia,'Lo dice hasta<br>la <i>ciencia</i>.'],[T.permitete,'Permítete<br><i>fallar</i>.'],[T.nunca,'Pero nunca<br><b>2</b> días <i>seguidos</i>.'],
+  [T.apetece,'¿Que mañana no<br>te <i>apetece</i>?'],[T.veinte,'Sal aunque sean<br><i>20 minutos</i>.'],[T.hilo,'Lo importante:<br>no soltar<br>el <i>hilo</i>.'],
+  [T.moncu,'En <i>Moncu</i> te damos<br>un motivo para no<br>fallar dos veces.'],[T.corre,'']];
+ let ki=0;sc.forEach((s,i)=>{if(t>=s[0])ki=i});setTitle(sc[ki][1]);const s0=sc[ki][0];
+ const soft=[T.nopasa].includes(s0);
+ $('title').style.transform=`scale(${soft?1:.55+.45*back((t-s0)/.3)}) rotate(${ki%2?1.3:-1.3}deg)`;
+ // cadena
+ const chOn=(t>=T.dia&&t<T.ciencia)||(t>=T.permitete&&t<T.apetece)||(t>=T.hilo&&t<T.moncu);
+ CH.style.display=chOn?'inline':'none';
+ if(chOn){
+  L.forEach((g,i)=>{
+   let state='on',y=900,rot=0,op=1,col=['#7B5CF0','#9C86F5'][i%2];
+   const appear=back((t-(T.dia+i*.12))/.3);
+   if(t<T.ciencia){
+    if(i===2&&t>=T.dia+.9)state='gap';
+    if(i===3&&t>=T.tampoco)state='gap';
+    if(t>=T.costumbre&&i>=3){const q=t-T.costumbre;y=900+600*q*q*1.6;rot=(i%2?1:-1)*q*120;op=1-clamp(q/1.1)}
+    if(i===3&&t>=T.vale&&t<T.tampoco)col='#E5F38B';
+   } else if(t<T.apetece){ // permítete fallar: un hueco, la cadena aguanta
+    if(i===2)state='gap'; if(t>=T.nunca&&i===3)col='#E5F38B';
+   } else { // no soltar el hilo: se cierra en lima
+    col='#E5F38B';if(i===2&&t<T.hilo+.6)state='gap';
+   }
+   g._r.setAttribute('stroke',state==='gap'?'#4A4178':col);g._r.setAttribute('stroke-dasharray',state==='gap'?'26 18':'');
+   g.setAttribute('opacity',op);g.setAttribute('transform',`translate(${g._x} ${y}) rotate(${rot}) scale(${t<T.ciencia?appear:1})`);
+  });
+  $('chips').style.display=t>=T.excusas&&t<T.tampoco?'block':'none';
+ } else $('chips').style.display='none';
+ [0,1,2].forEach(i=>{const q=t-(T.excusas+i*.75);const e=$('c'+i);e.style.opacity=q>0?1:0;e.style.transform=`scale(${q>0?back(q/.3):0}) rotate(${(i-1)*4}deg)`});
+ // estudio
+ const so=t>=T.ciencia&&t<T.permitete;$('study').style.opacity=so?1:0;$('study').style.transform=`scale(${so?.7+.3*back((t-T.ciencia)/.35):0})`;
+ $('r1').style.opacity=clamp((t-T.suelto)/.2);$('r2').style.opacity=clamp((t-T.encadenar)/.2);
+ // temporizador 20 min
+ const to=t>=T.veinte&&t<T.hilo;$('timer').style.opacity=to?1:0;$('timer').style.transform=`scale(${to?back((t-T.veinte)/.3):0})`;
+ const tp=ease((t-T.veinte-.2)/1.4);$('tarc').setAttribute('stroke-dashoffset',785*(1-tp));$('tt').textContent=Math.round(20*tp)+"'";
+ // Moncu
+ const co=t>=T.suma&&t<T.corre;$('coin').style.opacity=co?1:0;$('coin').style.transform=`scale(${co?.6+.4*back((t-T.suma)/.4):0})`;
+ $('coin').querySelector('img').style.transform=`rotate(${Math.sin(t*2.2)*5}deg)`;
+ [['w1',T.corre],['w2',T.gana],['w3',T.canjea]].forEach(([id,a])=>{const q=t-a;const e=$(id);e.style.opacity=q>0?1:0;e.style.transform=`scale(${q>0?back(q/.28):0}) rotate(${id==='w3'?-3:0}deg)`});
+ $('sign').style.opacity=clamp((t-T.canjea-.4)/.4);
+ $('cover').style.display=t<1/30?'block':'none';
+}
+window.render=render;render(0);
+</script></body></html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:A;src:url(node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2)}
+html,body{margin:0}
+#s{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:A;background:#0B0A12}
+.abs{position:absolute}
+.pill{display:inline-block;background:#E5F38B;color:#000;font-size:100px;letter-spacing:2px;padding:8px 46px 16px;border-radius:999px}
+</style></head><body><div id="s">
+<svg class="abs" style="left:0;top:0" width="1080" height="1920">
+ <defs>
+  <linearGradient id="L" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#0B0A12"/><stop offset="1" stop-color="#1A1726"/></linearGradient>
+  <linearGradient id="R" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#14102A"/><stop offset="1" stop-color="#3A2E78"/></linearGradient>
+  <radialGradient id="g"><stop offset="0" stop-color="#E5F38B" stop-opacity=".22"/><stop offset="1" stop-color="#E5F38B" stop-opacity="0"/></radialGradient>
+  <clipPath id="cl"><path d="M0 0 L600 0 L480 1920 L0 1920 Z"/></clipPath>
+  <clipPath id="cr"><path d="M600 0 L1080 0 L1080 1920 L480 1920 Z"/></clipPath>
+ </defs>
+ <rect width="1080" height="1920" fill="url(#L)" clip-path="url(#cl)"/>
+ <rect width="1080" height="1920" fill="url(#R)" clip-path="url(#cr)"/>
+ <circle cx="800" cy="1350" r="420" fill="url(#g)" clip-path="url(#cr)"/>
+ <!-- suelo -->
+ <rect x="0" y="1640" width="1080" height="280" fill="#141414"/>
+ <!-- izquierda: ticket kilométrico, cajas y bolsas -->
+ <g clip-path="url(#cl)">
+  <g transform="rotate(-6 200 900)">
+   <path d="M90 520 L330 520 L330 1380 L90 1380 Z" fill="#E9E3FD" fill-opacity=".16"/>
+   <path d="M90 1380 l20 22 l20 -22 l20 22 l20 -22 l20 22 l20 -22 l20 22 l20 -22 l20 22 l20 -22 l20 22 l20 -22" fill="#E9E3FD" fill-opacity=".16"/>
+   <g fill="#E9E3FD" fill-opacity=".22">
+    <rect x="120" y="580" width="120" height="14" rx="7"/><rect x="260" y="580" width="45" height="14" rx="7"/>
+    <rect x="120" y="650" width="90" height="14" rx="7"/><rect x="250" y="650" width="55" height="14" rx="7"/>
+    <rect x="120" y="720" width="140" height="14" rx="7"/><rect x="270" y="720" width="35" height="14" rx="7"/>
+    <rect x="120" y="790" width="100" height="14" rx="7"/><rect x="250" y="790" width="55" height="14" rx="7"/>
+    <rect x="120" y="860" width="130" height="14" rx="7"/><rect x="260" y="860" width="45" height="14" rx="7"/>
+    <rect x="120" y="930" width="80" height="14" rx="7"/><rect x="250" y="930" width="55" height="14" rx="7"/>
+    <rect x="120" y="1000" width="120" height="14" rx="7"/><rect x="260" y="1000" width="45" height="14" rx="7"/>
+    <rect x="120" y="1070" width="100" height="14" rx="7"/><rect x="250" y="1070" width="55" height="14" rx="7"/>
+   </g>
+   <rect x="120" y="1180" width="185" height="26" rx="8" fill="#E9E3FD" fill-opacity=".35"/>
+  </g>
+  <g fill="#2B2640" stroke="#3E3858" stroke-width="4">
+   <rect x="300" y="1440" width="200" height="200" rx="10"/><rect x="320" y="1300" width="160" height="140" rx="10"/>
+   <path d="M20 1480 L170 1480 L185 1640 L5 1640 Z"/><path d="M55 1480 C 55 1410 135 1410 135 1480" fill="none"/>
+  </g>
+  <g fill="#3E3858"><rect x="320" y="1530" width="160" height="10"/><rect x="340" y="1360" width="120" height="8"/></g>
+ </g>
+ <!-- derecha: monedas oficiales flotando -->
+ <line x1="600" y1="0" x2="480" y2="1920" stroke="#E5F38B" stroke-width="10"/>
+</svg>
+<img class="abs" src="brand/moneda_moncu.png" style="left:790px;top:760px;width:150px;transform:rotate(-12deg)">
+<img class="abs" src="brand/moneda_moncu.png" style="left:930px;top:960px;width:100px;transform:rotate(10deg);opacity:.85">
+<img class="abs" src="brand/moneda_moncu.png" style="left:660px;top:1020px;width:80px;transform:rotate(-4deg);opacity:.7">
+<!-- monos: izquierda apagado y cargado, derecha ligero -->
+<img class="abs" src="mono_agobiado.png" style="left:40px;top:1150px;width:500px;transform:scaleX(-1)">
+<svg class="abs" style="left:0;top:0;pointer-events:none" width="1080" height="1920">
+ <!-- gota de sudor -->
+ <path d="M92 1205 C 108 1232 114 1244 114 1253 A 22 22 0 0 1 70 1253 C 70 1244 76 1232 92 1205 Z" fill="#E9E3FD" stroke="#000" stroke-width="5"/>
+ <!-- pensamiento: nube con la cartera vacía -->
+ <g>
+  <circle cx="205" cy="1205" r="12" fill="#fff" stroke="#000" stroke-width="5"/>
+  <circle cx="232" cy="1160" r="18" fill="#fff" stroke="#000" stroke-width="5"/>
+  <path d="M110 1110 C 50 1110 40 1040 90 1020 C 70 960 140 920 190 950 C 220 890 320 890 345 950 C 400 920 470 970 445 1030 C 500 1050 485 1120 420 1120 C 400 1150 330 1150 310 1125 C 280 1150 200 1150 180 1120 C 160 1135 120 1130 110 1110 Z" fill="#fff" stroke="#000" stroke-width="7" stroke-linejoin="round"/>
+  <g transform="translate(150 965) scale(.8)">
+   <rect x="0" y="0" width="280" height="170" rx="22" fill="#7A5A44" stroke="#000" stroke-width="8"/>
+   <rect x="14" y="14" width="252" height="142" rx="14" fill="none" stroke="#C9A98A" stroke-width="4" stroke-dasharray="10 8"/>
+   <line x1="140" y1="4" x2="140" y2="166" stroke="#000" stroke-width="7"/>
+   <path d="M26 52 L126 52 L126 150 L26 150 Z" fill="#5E4434" stroke="#000" stroke-width="5"/>
+   <path d="M26 78 L126 78" stroke="#000" stroke-width="5"/><path d="M26 104 L126 104" stroke="#000" stroke-width="5"/><path d="M26 130 L126 130" stroke="#000" stroke-width="5"/>
+   <path d="M154 34 L254 34 L254 150 L154 150 Z" fill="#2A1E17" stroke="#000" stroke-width="5"/>
+   <path d="M154 34 Q 204 64 254 34" fill="none" stroke="#000" stroke-width="5"/>
+  </g>
+  <g transform="translate(400 940) rotate(18) scale(.8)">
+   <ellipse cx="0" cy="0" rx="8" ry="16" fill="#000"/>
+   <path d="M0 -5 C -40 -40 -54 -4 -7 4 Z" fill="#E9E3FD" stroke="#000" stroke-width="5"/>
+   <path d="M0 -5 C 40 -40 54 -4 7 4 Z" fill="#E9E3FD" stroke="#000" stroke-width="5"/>
+  </g>
+ </g>
+</svg>
+<img class="abs" src="mono_derecha.png" style="left:560px;top:1130px;width:540px">
+<div class="abs" style="left:0;right:0;top:150px;text-align:center"><span class="pill" style="font-size:86px">¿DE QUÉ LADO CORRES TÚ?</span></div>
+</div></body></html>
