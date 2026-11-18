@@ -13,7 +13,7 @@
 
 ## Guiones (voz ElevenLabs, Mark Dou – Global Modern Narrator)
 - Hook potente en los 3 primeros segundos; el runner tiene que sentirse identificado y llevarse valor.
-- Pilares 1, 2 y 4 no venden. Pilar 3: Moncu habla como Moncu ("En Moncu nos dimos cuenta…"), nunca "hay apps como Moncu".
+- Moncu solo entra como último punto de la lista (ver plantilla). Siempre habla como Moncu ("En Moncu nos dimos cuenta…"), nunca "hay apps como Moncu".
 - Variar estructura (no siempre "3 consejos: 1, 2, 3") y tono. No empezar con "tranquilo". No abusar de "compi".
 - Voz humana, rápida, con coletillas. Nunca "morir" (usar "sufrir").
 - Con energía y ritmo: los guiones planos se rechazan.
