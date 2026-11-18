@@ -19,7 +19,7 @@ Playwright y Chromium ya vienen instalados (`require('playwright')` funciona; no
 ## 2. Qué hacer según la pieza
 ### Reel (IA)
 1. **Sin voz todavía** (no hay mp3 en la carpeta de voces que coincida con el Título):
-   - Escribe el guion para ElevenLabs siguiendo `docs/estilo.md` (hook en 3 s, voz humana con coletillas, sin "tranquilo" de entrada, estructura variada, sin vender en pilares 1, 2 y 4).
+   - Escribe el guion para ElevenLabs siguiendo la **plantilla de reel** de `docs/reglas-lucia.md` (20-30 s, promesa con número en el segundo 0, lista de ~3 s por punto, último punto Moncu) y `docs/estilo.md` (hook en 3 s, voz humana con coletillas, sin "tranquilo" de entrada, estructura variada, sin vender en pilares 1, 2 y 4).
    - Añádelo al Google Doc **"Guiones para voz"** dentro de la carpeta *Voces Claude* (créalo si no existe; añade al final, no borres lo anterior): título de la pieza, nombre exacto con el que debe subirse el mp3 (`<Título>.mp3`) y el guion limpio para pegar.
    - Pon Estado = **Guion listo**.
 2. **Con voz** (hay mp3 en *Voces Claude*, ID `1CfrNVFJz6tKYrx1u1qaQ6DVjP6cUcipS`, cuyo nombre coincide aproximadamente con el Título):

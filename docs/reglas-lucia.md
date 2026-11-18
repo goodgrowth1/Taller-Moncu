@@ -18,6 +18,15 @@
 - Voz humana, rápida, con coletillas. Nunca "morir" (usar "sufrir").
 - Con energía y ritmo: los guiones planos se rechazan.
 
+## Plantilla obligatoria de reel (18 nov 2026, datos de retención de Instagram)
+Los reels pierden el 40-46 % en los 3 primeros segundos si arrancan con una pantalla de texto quieta, y la gente se va hacia el segundo 12-20. "6 trucos para ahorrar" es el único con meseta (~45 % hasta el final de la lista) y "47 insignias" (16 s, acaba en la app) es el que más convierte.
+1. **Duración 20-30 s, nunca más de 30** (guion de ~70 palabras como máximo). Si una idea necesita más, no es un reel: avisa a Lucía para hacerla carrusel.
+2. **Segundo 0-1: el mono corriendo con la promesa encima**, con un número y un beneficio concretos ("6 trucos para ahorrar"). Nunca una pantalla de texto quieta. Promesa amplia, que enganche a cualquier runner, no solo a quien tiene el problema.
+3. **Segundo 1-25: lista rápida, ~3 s por punto**, con "Truco 1", "Truco 2"... en pantalla y un antes y un después visual cuando se pueda.
+4. **El último punto de la lista es Moncu, dentro de la lista y nunca después** ("y el último: que te paguen por correr"). Luego solo 1-2 s de cierre con el logo real y "link en la bio".
+5. El humor con el que el runner se identifica es lo que más se comparte: úsalo en el gancho y en los puntos.
+Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los reels rematan con Moncu como último punto.
+
 ## Vídeo
 - Música muy baja, nunca protagonista.
 - No acelerar vídeos enteros de forma uniforme (se nota). Si hay que dar ritmo, se retoca por bloques.
