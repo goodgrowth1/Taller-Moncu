@@ -34,6 +34,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - Logo real al final (cara con gorra), con "LINK EN LA BIO" cuando el vídeo es de Pilar 3.
 
 ## Portadas
+- **Variar el estilo de cada portada** (Lucía, 19 nov): no repetir siempre la plantilla "icono + pill morada + titular + firma". Alternar conceptos visuales (pase VIP con sello, gráfica, objeto protagonista, textura de fondo, composición en diagonal...) manteniendo colores de marca y zona segura del grid.
 - Gancho que genere ganas de entrar; se entiende en un segundo. Nada tachado ni confuso.
 - Todo centrado entre y≈440 y y≈1480 para sobrevivir al recorte del grid (3:4 y 1:1). Comprobar siempre con `_grids.png`.
 - Pill morada con la pregunta/contexto + titular enorme en Anton blanco con una parte en #B6A4FF o lima puntual. Firma pequeña logo + MONCU.
