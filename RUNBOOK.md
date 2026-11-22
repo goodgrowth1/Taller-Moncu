@@ -37,6 +37,7 @@ Playwright y Chromium ya vienen instalados (`require('playwright')` funciona; no
 ## 3. Subir al Drive
 - Carpeta del mes: Instagram › Listo para Subir › **Noviembre 26** (ID `1t7_U1j1pmuBa_Hd3c3dzk-FEv5FS3d5Q`). Para otros meses, busca dentro de *Listo para Subir* (ID `17_5-NUWrC24Xh1AIE1M6z64erRqJxK_Q`) la carpeta "<Mes> 26"; si no existe, créala con ese mismo formato.
 - Vídeos: sueltos en la carpeta del mes. Portada al lado (`moncu_<slug>_PORTADA.png`).
+- **Límite de subida: ~3 MB por archivo** desde la sesión. Un reel de 25-30 s a buena calidad pesa ~6-7 MB y NO se puede subir así: pendiente de que Lucía decida (comprimir a <3 MB o enviárselo). Mientras tanto, apúntalo en el resumen como "montado, falta subir".
 - Subida: `create_file` con `base64Content` = `sha256:<hash>:<ruta absoluta>` (calcula el hash con `sha256sum`), `disableConversionToGoogleType: true`.
 
 ## 4. Escribir en el sheet (igual que lo hace Lucía)
