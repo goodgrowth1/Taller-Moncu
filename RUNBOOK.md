@@ -9,7 +9,7 @@ cd <este repo>; npm install --silent
 Playwright y Chromium ya vienen instalados (`require('playwright')` funciona; no ejecutes `playwright install`). ffmpeg y python3 (numpy, PIL) también.
 
 ## 1. Leer el calendario
-- Sheet "Moncu · Calendario de contenidos", ID `1V0kIMwo3Ii9KkmaZ6ej-fMe6W4_hHbq6TuyBuAsd3mQ`, pestaña **Calendario** (sheetId 0).
+- Sheet "Moncu · Calendario de contenidos", ID `1V0kIMwo3Ii9KkmaZ6ej-fMe6W4_hHbq6TuyBuAsd3mQ`, pestaña **Semanas** (sheetId 900003; columnas A Fecha · B Formato · C Pilar · D Título · E Portada · F Copy / notas · G Estado). OJO: lo de abajo sobre la pestaña Calendario está desactualizado; usa Semanas.
 - Columnas: A Fecha ("lun 16 nov") · B Formato · C Pilar · D Enfoque · E Título · F Estado · G Portada · H Copy / notas · I-L checks Instagram/TikTok/YouTube/LinkedIn.
 - Lee con `get_spreadsheet` + `includeGridData` y campos `formattedValue,hyperlink` (el link del Título solo se ve así).
 - **Trabajas las filas** con fecha entre mañana y +14 días, cuyo **Título NO tenga hyperlink**, y cuyo Formato sea `Reel (IA)`. **Carruseles, posts y stories NO son de esta tarea** (los lleva el chat de Moncu RRSS): no los toques.

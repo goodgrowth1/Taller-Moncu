@@ -40,6 +40,8 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - Pill morada con la pregunta/contexto + titular enorme en Anton blanco con una parte en #B6A4FF o lima puntual. Firma pequeña logo + MONCU.
 - Sin coletillas tipo "Spoiler…" debajo del titular salvo que se pida.
 - La portada va como primer frame del vídeo.
+- **La portada NO replica el vídeo** (Lucía, 22 nov): concepto, fondo y recurso distintos a los del vídeo (si el vídeo es oscuro con cronómetro, la portada puede ser lavanda con el mono y titular). Titular clarísimo y directo, lo primero que se lee.
+- En el sheet, la celda Portada lleva solo el texto **lista** con el link a la imagen; nunca la descripción.
 
 ## Carruseles y stories (Lucía, 22 nov 2026)
 - **El mensaje principal es el título, enorme.** Si la pieza va de Black Friday, "BLACK FRIDAY" ocupa media pantalla; nunca en una etiqueta pequeña.
