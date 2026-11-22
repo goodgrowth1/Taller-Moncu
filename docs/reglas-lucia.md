@@ -57,3 +57,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - **Máximo 5 hashtags** (límite de Instagram desde dic 2025; con más no se publica o se recortan). Específicos del tema antes que genéricos: 1 de nicho del tema, 1-2 de comunidad runner en España, 1 de formato o intención y #moncu. Nunca de relleno (#reels, #explore, #instagood).
 - SEO: la palabra que busca el runner va en la primera línea del copy (Instagram indexa el texto, no solo los hashtags).
 - Nada de dos puntos en prosa ni frases que suenen a IA.
+
+## Proceso (Lucía, 22 nov 2026)
+- **Todo de una vez, sin pedir permiso entre pasos.** Guion → voz en ElevenLabs → montaje → portada → subida al Drive → sheet. Lucía no tiene que pedir cada paso; si un paso se bloquea, se dice en el resumen qué falta exactamente y se deja todo lo demás listo.
+- Voz: generarla por la API de ElevenLabs (necesita `api.elevenlabs.io` permitido y la API key). Desde el Chrome de Lucía se puede generar, pero el mp3 se queda en su ordenador: no sirve para la tarea nocturna.
