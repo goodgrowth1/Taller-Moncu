@@ -10,6 +10,17 @@ Profesional y sobrio. Mucho color junto hace que la pieza parezca infantil, cutr
 - El mono corriendo es decorativo, nunca la firma. Mono NEGRO original (fotogramas oficiales).
 - Para que el mono negro se distinga del fondo: degradado sutil de negro a morado donde está el mono, o fondo morado oscuro.
 - Poses disponibles: mono agobiado (`poses/mono_agobiado.png`), m11 arreglado (`poses/mono_derecha.png`).
+- Ilustraciones oficiales del mono (Lucía, 22 nov 2026), en `assets/poses/ilustraciones/`. Úsalas para variar planos y escenas en vídeos, carruseles, posts y stories, y que no sea siempre el mono corriendo de lado:
+  - `amigos.webp`: tres monos chocando la mano (comunidad, retos en grupo, "corre con amigos").
+  - `hero.webp`: mono con café, ojos cerrados y disfrutando (recompensa, premios, canjear Moncus).
+  - `mapa.webp`: mono con café señalando un pin de cafetería (canje en tiendas, dónde gastar Moncus).
+  - `misiones.webp`: mono marcando un calendario (constancia, misiones, rachas, planes de entreno).
+  - `tazas.webp`: mono sentado con una torre de cafés (acumular premios, "lo que has ganado").
+  - `premium.webp`: mono con corona y guiñando (Premium; combínalo con el dorado #E8B84A).
+  - `mantenimiento.webp`: mono con casco y llave inglesa (novedades de la app, mejoras, "estamos trabajando en…").
+  - `runner_contorno.png`: mono corriendo en contorno blanco (fondos oscuros, decorativo, marcas de agua).
+  - Son blanco y negro con las monedas en amarillo: sobre fondo oscuro morado funcionan bien; no las recolorees ni les dibujes partes nuevas. Recortes, zoom y entrada animada sí.
+- `assets/brand/marca_agua.png`: logo en contorno blanco para marca de agua discreta.
 
 ## Colores
 - Morado Moncu #7B5CF0, morado claro #B6A4FF / #9C86F5, negro #000 / superficie #141414, blanco, gris #A3A3A3, lima #E5F38B (solo un toque), dorado premium #E8B84A, lavanda #E9E3FD con texto negro.
