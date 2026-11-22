@@ -44,5 +44,6 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 ## Copy
 - Breve, SEO (palabras que busca el runner en la primera línea), cierre con pregunta o "Guárdalo".
 - **Nunca repetir el texto de la portada**: el copy la complementa.
-- Hashtags elegidos para posicionar (mezcla de volumen y nicho), 5-7, nunca de relleno.
+- **Máximo 5 hashtags** (límite de Instagram desde dic 2025; con más no se publica o se recortan). Específicos del tema antes que genéricos: 1 de nicho del tema, 1-2 de comunidad runner en España, 1 de formato o intención y #moncu. Nunca de relleno (#reels, #explore, #instagood).
+- SEO: la palabra que busca el runner va en la primera línea del copy (Instagram indexa el texto, no solo los hashtags).
 - Nada de dos puntos en prosa ni frases que suenen a IA.
