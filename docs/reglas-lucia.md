@@ -41,6 +41,15 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - Sin coletillas tipo "Spoiler…" debajo del titular salvo que se pida.
 - La portada va como primer frame del vídeo.
 
+## Carruseles y stories (Lucía, 22 nov 2026)
+- **El mensaje principal es el título, enorme.** Si la pieza va de Black Friday, "BLACK FRIDAY" ocupa media pantalla; nunca en una etiqueta pequeña.
+- **Fuera las etiquetas/píldoras pequeñas** ("QUÉ ES", "TIPO 1 DE 6", "BLACK FRIDAY · MONCU"...). Solo si hacen falta de verdad. El "DESLIZA" de la primera slide sí.
+- **Menos texto, más imagen.** Producto real (zapatillas, geles, ropa, reloj...) con `assets/brand/prod_*.png`; ilustraciones del mono. Nunca inventar productos ni usar fotos que no sean nuestras.
+- **3 slides por defecto** (gancho · contenido · CTA). Más solo si el formato lo pide (listas tipo "tipos de runner").
+- Claro, directo, grande y llamativo. Variar el fondo: morado vivo (#7B5CF0 → #5B3FD0) para lo promocional, negro para lo informativo. Nada de todo negro con texto pequeño: queda monótono.
+- Tono cercano, hablando al runner ("Oye, que esta semana...").
+- Referencia aprobada: story del sorteo Trofeo Akiles (morado vivo, titular enorme con caja negra, número gigante).
+
 ## Copy
 - Breve, SEO (palabras que busca el runner en la primera línea), cierre con pregunta o "Guárdalo".
 - **Nunca repetir el texto de la portada**: el copy la complementa.
