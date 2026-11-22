@@ -48,6 +48,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - **3 slides por defecto** (gancho · contenido · CTA). Más solo si el formato lo pide (listas tipo "tipos de runner").
 - Claro, directo, grande y llamativo. Variar el fondo: morado vivo (#7B5CF0 → #5B3FD0) para lo promocional, negro para lo informativo. Nada de todo negro con texto pequeño: queda monótono.
 - Tono cercano, hablando al runner ("Oye, que esta semana...").
+- **Una story = un mensaje.** Si en el calendario una story junta dos cosas (Black Friday + sorteo), se hacen dos stories y se separa la fila en el sheet.
 - Referencia aprobada: story del sorteo Trofeo Akiles (morado vivo, titular enorme con caja negra, número gigante).
 
 ## Copy
