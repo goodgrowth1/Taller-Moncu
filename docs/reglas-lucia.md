@@ -66,6 +66,14 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - La tienda nueva (categorías Nutrición, Salud, Ropa, Zapatillas, Accesorios) y el Black Friday van juntos en un solo mensaje: "abrimos tienda nueva y, por Black Friday, todos los descuentos a 0 Moncus". No separar en piezas que hablan solo de una cosa.
 - Nunca llamar a Moncu "marketplace" en el contenido.
 - Se pueden usar capturas reales de la app (grabación de Lucía) en vídeos y carruseles.
+- **Black Friday es toda la semana**, no solo el viernes. Decirlo siempre ("Black Friday toda la semana", "hasta el domingo 29") para que no parezca que la tienda o los descuentos llegan el viernes.
+- **"0 Moncus" tiene que destacar**: es el gancho. Grande, en su propio bloque (tarjeta blanca o número gigante), nunca como una línea más.
+
+## Escritura (Lucía, 23 nov 2026)
+- **Nada de "·" entre palabras** (ni en slides, ni en copies, ni en notas): queda a IA. Usar comas, saltos de línea o frases normales.
+
+## Mono en acción (Lucía, 23 nov 2026)
+- Si el mono tiene que hacer algo (abrir una persiana, arreglar, señalar), usar la ilustración que encaje (`mantenimiento.webp` para abrir o arreglar, `mapa.webp` recortado para señalar) y animarla con saltos, squash y giros. No el ciclo de correr si no está corriendo.
 
 ## Proceso (Lucía, 22 nov 2026)
 - **Todo de una vez, sin pedir permiso entre pasos.** Guion → voz en ElevenLabs → montaje → portada → subida al Drive → sheet. Lucía no tiene que pedir cada paso; si un paso se bloquea, se dice en el resumen qué falta exactamente y se deja todo lo demás listo.
