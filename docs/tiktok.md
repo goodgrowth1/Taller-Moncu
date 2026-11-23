@@ -11,11 +11,11 @@ YouTube Shorts: la cuenta aún no está activa. Cuando lo esté, subir allí los
 - Ritmo: 2 al día, a las 13:30 y a las 20:30, empezando por los que más views tuvieron en Instagram. Lo nuevo de Instagram, al día siguiente.
 
 ## Límites y estado (23 nov, noche)
-- Antes de programar, revisar el final del vídeo: tiene que acabar con el mono (logo_cara), nunca con la palabra MONCU. Si la lleva, se corrige tapando la palabra y poniendo el logo (ver work/fixlogo en la sesión del 23 nov: drawbox con el color de fondo + overlay de logo_cara a 150 px con fundido).
-- Límites del conector: Drive solo descarga archivos de menos de 10 MB y solo se pueden subir archivos de menos de ~3,1 MB. Los vídeos de 40-55 s pesan 7-27 MB.
-- Por eso TODO lo programado está en BORRADOR en Metricool (no se publica) y la revisión diaria está pausada hasta que Lucía decida cómo seguir.
+- Antes de programar, mirar el final: el logo del cierre tiene que ser la cara del mono, nunca la palabra MONCU.
+- Límites del conector: Drive solo descarga archivos de menos de 10 MB y solo se suben archivos de menos de ~3,1 MB (comprimir con crf 28 y tune animation si hace falta).
+- Lado (23 nov 20:30), Rodilla, Sales a tope y Fuerza se quedaron en BORRADOR en Metricool (llevan la marca de agua MONCU pequeña y el sistema no dejó volver a activarlos desde aquí). Lucía puede activarlos en Metricool o pedírmelo. El resto sigue programado.
 
-## Programado el 23 nov 2026 (ahora en borrador) (Metricool, TikTok)
+## Programado el 23 nov 2026 (Metricool, TikTok)
 - 23 nov 20:30 ¿De qué lado corres tú?
 - 24 nov 13:30 Correr lento · 20:30 6 trucos para ahorrar
 - 25 nov 13:30 Carbono · 20:30 El ticket del runner
