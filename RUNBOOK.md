@@ -13,6 +13,7 @@ Playwright y Chromium ya vienen instalados (`require('playwright')` funciona; no
 - (Columnas de la antigua pestaña Calendario, ya no se usa: A Fecha · B Formato · C Pilar · D Enfoque · E Título · F Estado · G Portada · H Copy / notas.)
 - Lee con `get_spreadsheet` + `includeGridData` y campos `formattedValue,hyperlink` (el link del Título solo se ve así).
 - **Trabajas las filas** con fecha entre mañana y +14 días, cuyo **Título NO tenga hyperlink**, y cuyo Formato sea `Reel (IA)`. **Carruseles, posts y stories NO son de esta tarea** (los lleva el chat de Moncu RRSS): no los toques.
+- Excepción: si la fila tiene link pero su nota dice "PENDIENTE DE VOZ" y ya está el mp3 en Voces Claude, remóntala con la voz (sincroniza con `sync.py`), sube la versión nueva y cambia el link.
 - **No toques**: filas con link, Estado "Publicado…", notas "Ya hecho por Santi", "HUECO" (dependen de lanzamientos de Plane) ni Formato `Reel` sin "(IA)" (vídeo grabado por personas). Inclúyelas en el resumen si les falta algo.
 - Nunca borres ni reordenes filas. En Semanas solo escribes en D (link del Título), E (Portada), F (Copy / notas, conservando cualquier "Nota:" que ya hubiera debajo) y G (Estado).
 - Antes de escribir un guion, busca el Título en el doc "Guiones para voz": Lucía mueve piezas de día y muchas ya tienen guion de otra tanda (con otra fecha). Si ya está, no lo dupliques: solo pon Estado = Guion listo si sigue en Idea.
