@@ -36,6 +36,13 @@ Playwright y Chromium ya vienen instalados (`require('playwright')` funciona; no
    - Revisa el vídeo final: extrae 6-8 fotogramas con ffmpeg y míralos.
    - Estado = **En revisión**.
 
+### Reel sin voz (p. ej. teaser)
+- `montar.sh` deja la música al 12 % porque cuenta con voz. Sin voz, mete la música y los efectos en `musica.wav` y codifica a mano: `ffmpeg -framerate 30 -i frames/f%04d.jpg -i musica.wav -filter_complex "[1:a]volume=0.8,alimiter=limit=0.95[a]" -map 0:v -map "[a]" -c:v libx264 -preset slow -crf 20 -pix_fmt yuv420p -c:a aac -b:a 160k -t <end> salida.mp4`.
+
+### Carruseles (solo si Lucía lo pide en directo)
+- `tools/nuevo.sh <slug>`, copia `tools/estilos_base.css` y `estilos_promo.css` a la carpeta de trabajo y cambia `../../node_modules` por `node_modules` (si no, no cargan Bebas ni Barlow). `node ../../tools/slides.js carrusel.html <prefijo>` saca 1080x1350.
+- En el Drive van en una subcarpeta "Carrusel · <tema> (<día>)" dentro de la carpeta del mes; el Título del sheet enlaza a la carpeta y la Portada a la slide 1.
+
 ## 3. Subir al Drive
 - Carpeta del mes: Instagram › Listo para Subir › **Noviembre 26** (ID `1t7_U1j1pmuBa_Hd3c3dzk-FEv5FS3d5Q`). Para otros meses, busca dentro de *Listo para Subir* (ID `17_5-NUWrC24Xh1AIE1M6z64erRqJxK_Q`) la carpeta "<Mes> 26"; si no existe, créala con ese mismo formato.
 - Vídeos: sueltos en la carpeta del mes. Portada al lado (`moncu_<slug>_PORTADA.png`).
