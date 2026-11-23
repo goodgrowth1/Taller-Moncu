@@ -81,3 +81,8 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 ## Proceso (Lucía, 22 nov 2026)
 - **Todo de una vez, sin pedir permiso entre pasos.** Guion → voz en ElevenLabs → montaje → portada → subida al Drive → sheet. Lucía no tiene que pedir cada paso; si un paso se bloquea, se dice en el resumen qué falta exactamente y se deja todo lo demás listo.
 - Voz: generarla por la API de ElevenLabs (necesita `api.elevenlabs.io` permitido y la API key). Desde el Chrome de Lucía se puede generar, pero el mp3 se queda en su ordenador: no sirve para la tarea nocturna.
+
+## Voz (Lucía, 23 nov 2026)
+- **Voz de España, nunca latina.** Voz por defecto: Martin Osborne - Polished and Expressive (español peninsular), modelo Eleven v4. Mark Dou suena latino: no usarla.
+- **Reels cortos: 15-20 s.** Guion de ~40-50 palabras. 3-4 puntos muy breves, sin relleno.
+- Nunca el punto medio "·" entre palabras en textos, copies ni piezas: parece escrito por IA.
