@@ -17,6 +17,8 @@
 - Variar estructura (no siempre "3 consejos: 1, 2, 3") y tono. No empezar con "tranquilo". No abusar de "compi".
 - Voz humana, rápida, con coletillas. Nunca "morir" (usar "sufrir").
 - Con energía y ritmo: los guiones planos se rechazan.
+- **Acento castellano de España, nunca latino** (Lucía, 23 nov: "Baja de 25" salió con acento latino y hay que rehacerlo). Al pedir la voz, elegir en ElevenLabs una voz con acento de España y comprobarlo antes de montar.
+- **Más corto y con más ritmo** (Lucía, 23 nov, sobre "Baja de 25": unos 15 s, no 30). Ritmo en todo: en lo que se dice, en cómo se dice y en el montaje. Guion de ~40 palabras para 15 s.
 
 ## Plantilla obligatoria de reel (18 nov 2026, datos de retención de Instagram)
 Los reels pierden el 40-46 % en los 3 primeros segundos si arrancan con una pantalla de texto quieta, y la gente se va hacia el segundo 12-20. "6 trucos para ahorrar" es el único con meseta (~45 % hasta el final de la lista) y "47 insignias" (16 s, acaba en la app) es el que más convierte.
