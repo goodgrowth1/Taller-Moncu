@@ -86,3 +86,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - **Voz de España, nunca latina.** Voz por defecto: Martin Osborne - Polished and Expressive (español peninsular), modelo Eleven v4. Mark Dou suena latino: no usarla.
 - **Reels cortos: 15-20 s.** Guion de ~40-50 palabras. 3-4 puntos muy breves, sin relleno.
 - Nunca el punto medio "·" entre palabras en textos, copies ni piezas: parece escrito por IA.
+
+## Hashtags y sheet (Lucía, 23 nov 2026)
+- **Hashtags: siempre con el banco de `docs/seo-redes.md`** (datos reales de Instagram). Nada de inventarlos. 5 máximo: tema + comunidad en español + comunidad España + formato + #moncu.
+- **Publicado en el sheet:** cuando Lucía avise de que algo está subido, se marca la fila entera (A-G) con fondo gris #D9D9D9 (el 4.º gris empezando por el blanco). No tocar ese color en otras filas.
