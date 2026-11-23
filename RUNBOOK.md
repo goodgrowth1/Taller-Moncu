@@ -10,11 +10,12 @@ Playwright y Chromium ya vienen instalados (`require('playwright')` funciona; no
 
 ## 1. Leer el calendario
 - Sheet "Moncu · Calendario de contenidos", ID `1V0kIMwo3Ii9KkmaZ6ej-fMe6W4_hHbq6TuyBuAsd3mQ`, pestaña **Semanas** (sheetId 900003; columnas A Fecha · B Formato · C Pilar · D Título · E Portada · F Copy / notas · G Estado). OJO: lo de abajo sobre la pestaña Calendario está desactualizado; usa Semanas.
-- Columnas: A Fecha ("lun 16 nov") · B Formato · C Pilar · D Enfoque · E Título · F Estado · G Portada · H Copy / notas · I-L checks Instagram/TikTok/YouTube/LinkedIn.
+- (Columnas de la antigua pestaña Calendario, ya no se usa: A Fecha · B Formato · C Pilar · D Enfoque · E Título · F Estado · G Portada · H Copy / notas.)
 - Lee con `get_spreadsheet` + `includeGridData` y campos `formattedValue,hyperlink` (el link del Título solo se ve así).
 - **Trabajas las filas** con fecha entre mañana y +14 días, cuyo **Título NO tenga hyperlink**, y cuyo Formato sea `Reel (IA)`. **Carruseles, posts y stories NO son de esta tarea** (los lleva el chat de Moncu RRSS): no los toques.
 - **No toques**: filas con link, Estado "Publicado…", notas "Ya hecho por Santi", "HUECO" (dependen de lanzamientos de Plane) ni Formato `Reel` sin "(IA)" (vídeo grabado por personas). Inclúyelas en el resumen si les falta algo.
-- Nunca borres ni reordenes filas. Solo escribes en E (link), F (Estado), G (Portada) y H (Copy / notas, conservando cualquier "Nota:" que ya hubiera debajo).
+- Nunca borres ni reordenes filas. En Semanas solo escribes en D (link del Título), E (Portada), F (Copy / notas, conservando cualquier "Nota:" que ya hubiera debajo) y G (Estado).
+- Antes de escribir un guion, busca el Título en el doc "Guiones para voz": Lucía mueve piezas de día y muchas ya tienen guion de otra tanda (con otra fecha). Si ya está, no lo dupliques: solo pon Estado = Guion listo si sigue en Idea.
 
 ## 2. Qué hacer según la pieza
 ### Reel (IA)
@@ -22,6 +23,7 @@ Playwright y Chromium ya vienen instalados (`require('playwright')` funciona; no
    - Escribe el guion para ElevenLabs siguiendo la **plantilla de reel** de `docs/reglas-lucia.md` (20-30 s, promesa con número en el segundo 0, lista de ~3 s por punto, último punto Moncu) y `docs/estilo.md` (hook en 3 s, voz humana con coletillas, sin "tranquilo" de entrada, estructura variada).
    - Añádelo al Google Doc **"Guiones para voz"** dentro de la carpeta *Voces Claude* (créalo si no existe; añade al final, no borres lo anterior): título de la pieza, nombre exacto con el que debe subirse el mp3 (`<Título>.mp3`) y el guion limpio para pegar.
    - Pon Estado = **Guion listo**.
+   - OJO (23 nov): el doc solo se puede ampliar si la sesión tiene el conector de **Google Docs** (editor). Con solo Google Drive no se puede añadir texto a un doc existente, y no hay que crear otro doc ni duplicarlo. En ese caso: manda los guiones nuevos dentro del resumen a Lucía para que los pegue, deja el Estado como estaba y dilo en "Te necesito".
 2. **Con voz** (hay mp3 en *Voces Claude*, ID `1CfrNVFJz6tKYrx1u1qaQ6DVjP6cUcipS`, cuyo nombre coincide aproximadamente con el Título):
    - Descárgalo (`download_file_content`; si llega en base64, decodifícalo a `voz.mp3`).
    - `tools/nuevo.sh <slug>` y trabaja en `work/<slug>`.
@@ -41,11 +43,11 @@ Playwright y Chromium ya vienen instalados (`require('playwright')` funciona; no
 - Subida: `create_file` con `base64Content` = `sha256:<hash>:<ruta absoluta>` (calcula el hash con `sha256sum`), `disableConversionToGoogleType: true`.
 
 ## 4. Escribir en el sheet (igual que lo hace Lucía)
-Con `update_spreadsheet` → `updateCells` en sheetId 0, `fields: "userEnteredValue,textFormatRuns"`:
-- **E Título**: mismo texto, con link al vídeo (`https://drive.google.com/file/d/<id>/view`) en `textFormatRuns[0].format.link.uri`.
-- **G Portada**: texto `lista` con link a la portada.
-- **H Copy / notas**: copy breve SEO (ver reglas) + si había una "Nota:" se conserva debajo tras una línea en blanco. Si el copy ya estaba escrito y no repite la portada, respétalo.
-- **F Estado**: Guion listo / En revisión.
+Con `update_spreadsheet` → `updateCells` en **sheetId 900003 (Semanas)**, `fields: "userEnteredValue,textFormatRuns"`:
+- **D Título**: mismo texto, con link al vídeo (`https://drive.google.com/file/d/<id>/view`) en `textFormatRuns[0].format.link.uri`.
+- **E Portada**: texto `lista` con link a la portada.
+- **F Copy / notas**: copy breve SEO (ver reglas) + si había una "Nota:" se conserva debajo tras una línea en blanco. Si el copy ya estaba escrito y no repite la portada, respétalo.
+- **G Estado**: Guion listo / En revisión.
 
 ## 5. Límites por noche
 - Como máximo 4 Reels montados por noche, por orden de fecha. Calidad antes que cantidad.
