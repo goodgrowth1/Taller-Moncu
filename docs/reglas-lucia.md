@@ -32,6 +32,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - No acelerar vídeos enteros de forma uniforme (se nota). Si hay que dar ritmo, se retoca por bloques.
 - Sincronía exacta: cada tarjeta/texto entra cuando la voz lo dice.
 - Logo real al final (cara con gorra), con "LINK EN LA BIO" cuando el vídeo es de Pilar 3.
+- **Al final del vídeo sale SIEMPRE el mono (logo_cara), nunca la palabra "MONCU"** (Lucía, 23 nov, enfadada: ya se había dicho muchas veces). Ni la palabra sola ni logo + palabra. Antes de subir o reprogramar cualquier vídeo, mirar sus últimos fotogramas. Los vídeos antiguos con marca de agua "MONCU" (cuestas, 3 km, fuerza, rodilla, lado, talón, dos días, Behobia) hay que corregirlos antes de reutilizarlos.
 
 ## Portadas
 - **Variar el estilo de cada portada** (Lucía, 19 nov): no repetir siempre la plantilla "icono + pill morada + titular + firma". Alternar conceptos visuales (pase VIP con sello, gráfica, objeto protagonista, textura de fondo, composición en diagonal...) manteniendo colores de marca y zona segura del grid.
