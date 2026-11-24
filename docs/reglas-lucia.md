@@ -100,3 +100,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 ## CTA de cierre en reels y carruseles (24 nov)
 - Todos los reels y carruseles acaban con el bloque lima «COMENTA [MONCU] / y te mandamos el link para descargarte la app 📲» (clase `.cta` en `work/_comun/base.css`; en reels va en la tarjeta final, con la cara del mono debajo). Sustituye a «Link en la bio».
 - En el copy, la línea «Comenta MONCU y te mandamos el link para descargarte la app 📲» va justo antes de los hashtags.
+
+## Portadas de reel y cuadrícula (24 nov)
+- La cuadrícula del perfil recorta la portada a 3:4 por el centro (y 240 a 1680 en 1080x1920). Todo el texto y lo importante tiene que caber ahí; comprobar con el recorte antes de subir.
+- Fondo negro con rayos para la campaña Black Friday: le gusta.
