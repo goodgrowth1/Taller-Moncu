@@ -96,3 +96,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - Enseñar producto real con su precio, el descuento y los Moncus tachados a 0 (estilo `work/_comun/producto.css`, ejemplo `work/tienda_v2/cards.py`).
 - Productos: usar los recortes de `assets/productos/` (capturas de la tienda del 24 nov, fondo limpio). No usar las zapatillas Adidas (`prod_shoe`); de calzado/ropa solo Blue Banana. Si un producto no se recorta bien, pedir a Lucía una captura mejor.
 - No llamar «marketplace» a Moncu en el contenido.
+
+## CTA de cierre en reels y carruseles (24 nov)
+- Todos los reels y carruseles acaban con el bloque lima «COMENTA [MONCU] / y te mandamos el link para descargarte la app 📲» (clase `.cta` en `work/_comun/base.css`; en reels va en la tarjeta final, con la cara del mono debajo). Sustituye a «Link en la bio».
+- En el copy, la línea «Comenta MONCU y te mandamos el link para descargarte la app 📲» va justo antes de los hashtags.
