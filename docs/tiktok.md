@@ -13,7 +13,7 @@ YouTube Shorts: la cuenta aún no está activa. Cuando lo esté, subir allí los
 ## Límites y estado (23 nov, noche)
 - Antes de programar, mirar el final: el logo del cierre tiene que ser la cara del mono, nunca la palabra MONCU.
 - Límites del conector: Drive solo descarga archivos de menos de 10 MB y solo se suben archivos de menos de ~3,1 MB (comprimir con crf 28 y tune animation si hace falta).
-- Lado (23 nov 20:30), Rodilla, Sales a tope y Fuerza se quedaron en BORRADOR en Metricool (llevan la marca de agua MONCU pequeña y el sistema no dejó volver a activarlos desde aquí). Lucía puede activarlos en Metricool o pedírmelo. El resto sigue programado.
+- Lado (ahora 29 nov 20:30), Rodilla, Sales a tope y Fuerza se quedaron en BORRADOR en Metricool (llevan la marca de agua MONCU pequeña y el sistema no dejó volver a activarlos desde aquí). Lucía puede activarlos en Metricool o pedírmelo. El resto sigue programado.
 
 ## Programado el 23 nov 2026 (Metricool, TikTok)
 - 23 nov 20:30 ¿De qué lado corres tú?
@@ -23,6 +23,11 @@ YouTube Shorts: la cuenta aún no está activa. Cuando lo esté, subir allí los
 - 27 nov 13:30 3 trucos ganas de correr · 20:30 Sales a tope
 - 28 nov 13:30 Fuerza vs estirar · 20:30 Periostitis
 
+## Revisión 24 nov 2026 (mañana)
+- En Instagram no hay reels nuevos desde el 21 nov. Todo lo del 9 al 21 nov está publicado, programado o en borrador en TikTok, salvo los pendientes de abajo. No se ha programado nada.
+- Borradores sin tocar: Lado 29 nov 20:30, Rodilla 26 nov 13:30, Sales a tope 27 nov 20:30, Fuerza 28 nov 13:30.
+
 ## Pendientes
-- 47 insignias (14 nov, 2875 views IG): no está en el Drive, pedir a Lucía.
+- 47 insignias (14 nov, 2875 views IG): no está en el Drive con ese nombre. El único vídeo parecido es `moncu_medallas_v2.mp4` (ID `10Ie_PkdU6xs89Wvf1pk-bZruNdb8FmDa`, 17 s, «Tu app te da una medalla», acaba con la cara del mono), pero no es seguro que sea el mismo y lleva «GRATIS» y la zapatilla Adidas. Preguntar a Lucía antes de subirlo.
+- Reel del 29 sep («Quién te diga que correr no te da productos gratis», 688 views IG): no está en TikTok ni se encuentra en el Drive. Además dice «gratis» y lleva 11 hashtags con marcas. Preguntar a Lucía si se sube.
 - Behobia (9 nov): evento pasado, preguntar a Lucía antes (archivo 1DFpU-NAbTGqSUKIVSTuJfZqblpe5tXWj).
