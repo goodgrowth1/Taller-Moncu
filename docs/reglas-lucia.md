@@ -90,3 +90,9 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 ## Hashtags y sheet (Lucía, 23 nov 2026)
 - **Hashtags: siempre con el banco de `docs/seo-redes.md`** (datos reales de Instagram). Nada de inventarlos. 5 máximo: tema + comunidad en español + comunidad España + formato + #moncu.
 - **Publicado en el sheet:** cuando Lucía avise de que algo está subido, se marca la fila entera (A-G) con fondo gris #D9D9D9 (el 4.º gris empezando por el blanco). No tocar ese color en otras filas.
+
+## Black Friday y tienda: 0 Moncus NO es gratis (24 nov)
+- En Moncu cada producto tiene un descuento que se canjea gastando Moncus. «0 Moncus» = ese descuento se aplica sin gastar Moncus. Nunca decir ni dar a entender que algo es gratis («todo a 0», «TOTAL 0», «PAGADO CON 0»). Fórmula: «descuentos a 0 Moncus».
+- Enseñar producto real con su precio, el descuento y los Moncus tachados a 0 (estilo `work/_comun/producto.css`, ejemplo `work/tienda_v2/cards.py`).
+- Productos: usar los recortes de `assets/productos/` (capturas de la tienda del 24 nov, fondo limpio). No usar las zapatillas Adidas (`prod_shoe`); de calzado/ropa solo Blue Banana. Si un producto no se recorta bien, pedir a Lucía una captura mejor.
+- No llamar «marketplace» a Moncu en el contenido.
