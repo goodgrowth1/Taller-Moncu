@@ -1,3 +1,16 @@
+# SEO en redes (actualizado 24 nov, por Lucía)
+
+## Fórmula nueva (sustituye a la anterior)
+- 5 hashtags máximo: 1 de tema + `#running #runners #correr #runningespaña`.
+  - Volumen aproximado: #running ~65M publicaciones, #runners ~8,9M, #correr ~5M.
+  - Tema: el concreto de la pieza (#blackfriday, #5k, #gemeloscargados, #fascitisplantar, #tiradalarga, #primeracarrera...). Si no hay uno claro, solo los 4 fijos.
+- PROHIBIDOS (Lucía: «eso lo pone una abuela»): #corredores, #correresvida, #carreraspopulares, #constancia, #entrenamiento y similares genéricos o de frase. #moncu tampoco hace falta.
+- Lo que más pesa en el SEO de Instagram es el TEXTO, no los hashtags:
+  - Palabra clave (running, correr, runner, el tema) en la primera frase del copy.
+  - La misma palabra en el texto en pantalla del reel y en la voz.
+  - Texto alternativo (alt text) en carruseles con la palabra clave.
+
+## Banco antiguo (solo referencia, no usar la fórmula vieja)
 # SEO en Instagram: hashtags y copy (Moncu)
 
 Datos sacados del buscador de Instagram el 23 nov 2026 (publicaciones totales). Revisar cada mes en la auditoría.

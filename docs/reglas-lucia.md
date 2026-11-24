@@ -104,3 +104,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 ## Portadas de reel y cuadrícula (24 nov)
 - La cuadrícula del perfil recorta la portada a 3:4 por el centro (y 240 a 1680 en 1080x1920). Todo el texto y lo importante tiene que caber ahí; comprobar con el recorte antes de subir.
 - Fondo negro con rayos para la campaña Black Friday: le gusta.
+
+## Hashtags (24 nov, sustituye a lo anterior)
+- Fórmula: 1 de tema + #running #runners #correr #runningespaña (ver docs/seo-redes.md). Nada de #corredores, #correresvida, #carreraspopulares ni tags de frase.
+- Palabra clave en la primera frase del copy.
