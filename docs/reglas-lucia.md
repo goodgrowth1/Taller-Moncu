@@ -83,7 +83,7 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - Voz: generarla por la API de ElevenLabs (necesita `api.elevenlabs.io` permitido y la API key). Desde el Chrome de Lucía se puede generar, pero el mp3 se queda en su ordenador: no sirve para la tarea nocturna.
 
 ## Voz (Lucía, 23 nov 2026)
-- **Voz de España, nunca latina.** Voz por defecto: Martin Osborne - Polished and Expressive (español peninsular), modelo Eleven v4. Mark Dou suena latino: no usarla.
+- **Voz por defecto: Mark Dou – Global Modern Narrator** (Lucía, 24 nov: le gusta, no quiere voz de señor mayor; nada de Martin Osborne). Tiene que sonar de España: solo salió latina en el vídeo «Baja de 25». Antes de montar, escuchar el audio; si suena latino, regenerar (mismo modelo y ajustes que los audios buenos de Mark Dou, idioma español de España si la interfaz lo permite).
 - **Reels cortos: 15-20 s.** Guion de ~40-50 palabras. 3-4 puntos muy breves, sin relleno.
 - Nunca el punto medio "·" entre palabras en textos, copies ni piezas: parece escrito por IA.
 
