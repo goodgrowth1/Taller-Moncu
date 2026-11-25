@@ -115,3 +115,8 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - No repetir consejos ya usados en otros vídeos (p. ej. «si no puedes hablar, vas rápido» está quemado). Antes de escribir un guion, revisar los guiones y copies anteriores.
 - «Comenta MONCU» NO va en todas las piezas: no seguidas ni en todo. Variar el CTA según la pieza: «Guárdalo y mándaselo a tus colegas del run club», guardar, etiquetar, pregunta...
 - Si hace falta, crear músicas nuevas para no repetir siempre la misma base.
+
+## No perder lo que ya funciona (25 nov)
+- Al aplicar un cambio nuevo, no quitar ni sustituir elementos que ya estaban y le gustaban, salvo que Lucía lo pida expresamente.
+- Cierre de reels para guardar: la cara del mono y debajo «GUÁRDALO» en letra blanca grande (el estilo de siempre). No usar la caja lima de «Comenta MONCU» para guardar.
+- No meter la coletilla de Moncus al final de los consejos («cada kilómetro suave también suma Moncus»). El cierre es «Guárdalo» y ya está.
