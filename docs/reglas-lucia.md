@@ -108,3 +108,10 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 ## Hashtags (24 nov, sustituye a lo anterior)
 - Fórmula: 1 de tema + #running #runners #correr #runningespaña (ver docs/seo-redes.md). Nada de #corredores, #correresvida, #carreraspopulares ni tags de frase.
 - Palabra clave en la primera frase del copy.
+
+## Reels: ritmo, repetición y CTA (25 nov)
+- Máximo 20 s. Muy al grano: gancho, claves y cierre, sin relleno.
+- Voz más rápida pero no excitada ni gritona (si hace falta, atempo ~1.1 y pausas cortas).
+- No repetir consejos ya usados en otros vídeos (p. ej. «si no puedes hablar, vas rápido» está quemado). Antes de escribir un guion, revisar los guiones y copies anteriores.
+- «Comenta MONCU» NO va en todas las piezas: no seguidas ni en todo. Variar el CTA según la pieza: «Guárdalo y mándaselo a tus colegas del run club», guardar, etiquetar, pregunta...
+- Si hace falta, crear músicas nuevas para no repetir siempre la misma base.
