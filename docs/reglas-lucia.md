@@ -129,3 +129,8 @@ Fracasos: «Gemelos cargados» y la tragaperras de Black Friday (consejos genér
 - 3-4 claves cortas, cada una con un dato concreto (número, ritmo, km, grados).
 - Ritmo rápido, máximo 20 s, cierre «GUÁRDALO».
 - Temas nuevos cada vez: no repetir consejos ni fondos de los vídeos anteriores.
+
+## Colores (26 nov)
+- Protagonistas: MORADO o NEGRO. Nada de azul.
+- El lima/amarillo (#E5F38B) solo para detalles (una palabra, un número pequeño, un subrayado), nunca de fondo ni como bloque principal.
+- Variar entre portadas jugando con morado y negro (degradados, cajas blancas o moradas), no con colores nuevos.
