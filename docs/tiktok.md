@@ -33,7 +33,15 @@ YouTube Shorts: la cuenta aún no está activa. Cuando lo esté, subir allí los
 - Borradores sin tocar: Lado 29 nov 20:30, Rodilla 26 nov 13:30, Sales a tope 27 nov 20:30, Fuerza 28 nov 13:30.
 - Calendario TikTok lleno hasta el 29 nov. Primer hueco libre: 30 nov 13:30.
 
+## Revisión 26 nov 2026 (mañana)
+- Programado: «Gemelos siempre cargados» (IG 25 nov, 317 views) para el 30 nov 13:30. Copia `tt_gemelos.mp4` (ID `1QCi7_52UcjNmjMBaRPSszrMllTgbIFhI`). Final comprobado: cara del mono y «GUÁRDALO», sin la palabra MONCU.
+- 25 nov Carbono y Ticket: ya no están en la cola, se dan por publicados.
+- Borradores sin tocar: Lado 29 nov 20:30, Rodilla 26 nov 13:30, Sales a tope 27 nov 20:30, Fuerza 28 nov 13:30.
+- Calendario TikTok lleno hasta el 30 nov 13:30. Primer hueco libre: 30 nov 20:30.
+
 ## Pendientes
+- Black Friday «¿Cuántos Moncus necesitas…? Cero» (IG 24 nov, 716 views, y 25 nov, 158 views; vídeos en el Drive: `Reel 1 · Tragaperras Black Friday.mp4` ID `1yKphVCtXwV7u_T3i1kK9QwMz3EQKqz-v` y `Reel 2 · Ticket Black Friday.mp4` ID `1-9ZNckrGk12Xgl9oxg4AFWERbW0dwHu0`). Campaña con fecha (hasta el 29 nov) y los huecos de 13:30 y 20:30 están llenos hasta el 30. No programado: preguntar a Lucía si los quiere en TikTok (en otro horario antes del 29 o en lugar de algún borrador).
+- «Comenta garmin y participa!» (IG 24 nov, 173 views): sorteo, preguntar a Lucía.
 - Tres reels del 24 nov en Instagram que no están en el sheet ni en el Drive: «Comenta GARMIN y gana miles de premios» (1 view), «Comenta CORRER y gana miles de premios GRATIS!» (16 views) y «Comenta CORRER, la app que te premia por correr» (149 views). Hablan de premios, sorteos, «gratis» y «puntos». Preguntar a Lucía si se suben a TikTok y dónde está el vídeo.
 - 47 insignias (14 nov, 2875 views IG): no está en el Drive con ese nombre. El único vídeo parecido es `moncu_medallas_v2.mp4` (ID `10Ie_PkdU6xs89Wvf1pk-bZruNdb8FmDa`, 17 s, «Tu app te da una medalla», acaba con la cara del mono), pero no es seguro que sea el mismo y lleva «GRATIS» y la zapatilla Adidas. Preguntar a Lucía antes de subirlo.
 - Reel del 29 sep («Quién te diga que correr no te da productos gratis», 688 views IG): no está en TikTok ni se encuentra en el Drive. Además dice «gratis» y lleva 11 hashtags con marcas. Preguntar a Lucía si se sube.
