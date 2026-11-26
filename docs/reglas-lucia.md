@@ -120,3 +120,12 @@ Esta plantilla prevalece sobre "pilares 1, 2 y 4 no venden": ahora todos los ree
 - Al aplicar un cambio nuevo, no quitar ni sustituir elementos que ya estaban y le gustaban, salvo que Lucía lo pida expresamente.
 - Cierre de reels para guardar: la cara del mono y debajo «GUÁRDALO» en letra blanca grande (el estilo de siempre). No usar la caja lima de «Comenta MONCU» para guardar.
 - No meter la coletilla de Moncus al final de los consejos («cada kilómetro suave también suma Moncus»). El cierre es «Guárdalo» y ya está.
+
+## Estructura de los reels que funcionan (26 nov)
+Ganadores: «Baja de 25 min en tu 5K» (work/bajar25_5k), «Correr es gratis… ¿eh?» (ejemplos/v06), «¿Quieres correr más rápido? Corre más lento» (ejemplos/v05).
+Fracasos: «Gemelos cargados» y la tragaperras de Black Friday (consejos genéricos o promo sin valor).
+- Gancho en 0-2 s con un problema concreto y reconocible (no una frase genérica).
+- Un contador en pantalla que cambia con cada clave (cronómetro, € gastados, km, temperatura...).
+- 3-4 claves cortas, cada una con un dato concreto (número, ritmo, km, grados).
+- Ritmo rápido, máximo 20 s, cierre «GUÁRDALO».
+- Temas nuevos cada vez: no repetir consejos ni fondos de los vídeos anteriores.
