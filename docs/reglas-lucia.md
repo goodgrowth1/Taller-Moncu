@@ -138,3 +138,8 @@ Fracasos: «Gemelos cargados» y la tragaperras de Black Friday (consejos genér
 ## Nada médico (27 nov)
 - No recomendar cosas médicas ni de fisio (lesiones, dolores, tratamientos): no somos profesionales sanitarios. Contenido de runner: entrenamiento, material, ropa, carreras, motivación, comunidad, seguridad.
 - El reel de la nieve («¿Qué te pones con 4 grados?») funcionó muy bien: añadirlo a los de referencia (ambiente visual claro del tema + contador + claves con dato).
+
+## Acento de la voz (27 nov)
+- Mark Dou es una voz americana multilingüe: según la generación puede salir con acento latino. Lucía lo ha detectado otra vez (reel «¿Siempre llegas el último?»). El acento tiene que ser SIEMPRE castellano de España.
+- Propuesta pendiente de que Lucía elija: pasar a una voz nativa de España y joven (p. ej. «Marc - Calm & Youthful», Spanish Peninsular, en la biblioteca de ElevenLabs).
+- Claude no puede escuchar los audios: antes de montar, pedir a Lucía que confirme el acento o usar una voz nativa peninsular.
