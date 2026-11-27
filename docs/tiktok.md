@@ -39,8 +39,16 @@ YouTube Shorts: la cuenta aún no está activa. Cuando lo esté, subir allí los
 - Borradores sin tocar: Lado 29 nov 20:30, Rodilla 26 nov 13:30, Sales a tope 27 nov 20:30, Fuerza 28 nov 13:30.
 - Calendario TikTok lleno hasta el 30 nov 13:30. Primer hueco libre: 30 nov 20:30.
 
+## Revisión 27 nov 2026 (mañana)
+- Programado: «Correr con frío» (IG 26 nov, 5272 views) para hoy 27 nov 13:30. Copia `tt_correr_con_frio.mp4` (ID `1iUFSmW5RV9FTb2sEqM0lNbETIKALXSJi`), original `¿Qué te pones para correr con 4 grados?.mp4`. Final comprobado: cara del mono y «GUÁRDALO», sin la palabra MONCU.
+- Programado: «¿Cuántos km llevan tus zapatillas?» (IG 26 nov, 1799 views) para el 29 nov 13:30. Copia `tt_km_zapatillas.mp4` (ID `1_8taZYOiDq86HhLMEQxbeur4z-MpqMti`). Final comprobado: cara del mono y «ENVÍASELO», sin la palabra MONCU.
+- 26 nov 20:30 El jueves: publicado en TikTok.
+- Alguien (cuenta info@moncu.es) reprogramó esta mañana a las 7:20, con portada propia: 3 trucos 27 nov 18:00, Periostitis 28 nov 20:00, Baja de 25 29 nov 18:00 y Gemelos 30 nov 18:00. No se ha tocado.
+- Borradores sin tocar: Sales a tope 27 nov 20:30, Fuerza 28 nov 13:30, Lado 29 nov 20:30. Rodilla (26 nov 13:30) sigue en borrador con fecha pasada, no se publicó.
+- Cola TikTok: 27 nov 13:30 y 18:00, 28 nov 20:00, 29 nov 13:30 y 18:00, 30 nov 18:00. Huecos libres: 30 nov 13:30, y desde el 1 dic.
+
 ## Pendientes
-- Black Friday «¿Cuántos Moncus necesitas…? Cero» (IG 24 nov, 716 views, y 25 nov, 158 views; vídeos en el Drive: `Reel 1 · Tragaperras Black Friday.mp4` ID `1yKphVCtXwV7u_T3i1kK9QwMz3EQKqz-v` y `Reel 2 · Ticket Black Friday.mp4` ID `1-9ZNckrGk12Xgl9oxg4AFWERbW0dwHu0`). Campaña con fecha (hasta el 29 nov) y los huecos de 13:30 y 20:30 están llenos hasta el 30. No programado: preguntar a Lucía si los quiere en TikTok (en otro horario antes del 29 o en lugar de algún borrador).
+- Black Friday «¿Cuántos Moncus necesitas…? Cero» (IG 24 nov, 733 views, y 25 nov, 430 views; vídeos en el Drive: `Reel 1 · Tragaperras Black Friday.mp4` ID `1yKphVCtXwV7u_T3i1kK9QwMz3EQKqz-v` y `Reel 2 · Ticket Black Friday.mp4` ID `1-9ZNckrGk12Xgl9oxg4AFWERbW0dwHu0`). Campaña con fecha (hasta el 29 nov) y los huecos de 13:30 y 20:30 están llenos hasta el 30. No programado: preguntar a Lucía si los quiere en TikTok (en otro horario antes del 29 o en lugar de algún borrador).
 - «Comenta garmin y participa!» (IG 24 nov, 173 views): sorteo, preguntar a Lucía.
 - Tres reels del 24 nov en Instagram que no están en el sheet ni en el Drive: «Comenta GARMIN y gana miles de premios» (1 view), «Comenta CORRER y gana miles de premios GRATIS!» (16 views) y «Comenta CORRER, la app que te premia por correr» (149 views). Hablan de premios, sorteos, «gratis» y «puntos». Preguntar a Lucía si se suben a TikTok y dónde está el vídeo.
 - 47 insignias (14 nov, 2875 views IG): no está en el Drive con ese nombre. El único vídeo parecido es `moncu_medallas_v2.mp4` (ID `10Ie_PkdU6xs89Wvf1pk-bZruNdb8FmDa`, 17 s, «Tu app te da una medalla», acaba con la cara del mono), pero no es seguro que sea el mismo y lleva «GRATIS» y la zapatilla Adidas. Preguntar a Lucía antes de subirlo.
