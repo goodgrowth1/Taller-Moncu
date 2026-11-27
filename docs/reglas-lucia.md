@@ -134,3 +134,7 @@ Fracasos: «Gemelos cargados» y la tragaperras de Black Friday (consejos genér
 - Protagonistas: MORADO o NEGRO. Nada de azul.
 - El lima/amarillo (#E5F38B) solo para detalles (una palabra, un número pequeño, un subrayado), nunca de fondo ni como bloque principal.
 - Variar entre portadas jugando con morado y negro (degradados, cajas blancas o moradas), no con colores nuevos.
+
+## Nada médico (27 nov)
+- No recomendar cosas médicas ni de fisio (lesiones, dolores, tratamientos): no somos profesionales sanitarios. Contenido de runner: entrenamiento, material, ropa, carreras, motivación, comunidad, seguridad.
+- El reel de la nieve («¿Qué te pones con 4 grados?») funcionó muy bien: añadirlo a los de referencia (ambiente visual claro del tema + contador + claves con dato).
