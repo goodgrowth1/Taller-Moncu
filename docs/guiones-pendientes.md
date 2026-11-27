@@ -134,3 +134,25 @@ Dos: tus marcas llevan meses sin bajar.
 Tres: miras más al de al lado que a tu reloj.
 [excited] Y cuatro: si te picas, que sea con tus kilómetros en Moncu.
 Etiqueta a tu colega picón.
+
+## Tanda del 27 nov 2026 (reels ~20 s, voz Mark Dou)
+
+### VIE 11 DIC · Correr de noche sin que te pase nada
+mp3: `Correr de noche sin que te pase nada.mp3`
+
+[serious] A las seis ya es de noche. 4 reglas para que te vean.
+Una: reflectante en tobillos y muñecas. Lo que se mueve se ve.
+Dos: frontal de 100 lúmenes, apuntando al suelo.
+Tres: sin acera, por la izquierda, de cara a los coches.
+[excited] Y cuatro: tus accesorios, con descuento en la tienda de Moncu.
+Guárdalo.
+
+### VIE 11 DIC · Llevas una semana sin correr. Vuelve así
+mp3: `Llevas una semana sin correr. Vuelve así.mp3`
+
+[sarcastic] ¿Una semana sin correr y te ves empezando de cero? Ni de broma. 4 claves.
+Una: en siete días casi no pierdes forma.
+Dos: primer día, la mitad de lo que hacías. Suave.
+Tres: no recuperes los kilómetros perdidos.
+[excited] Y cuatro: vuelve hoy. En Moncu, ese kilómetro ya es premio.
+Mándaselo a quien sigue en el sofá.
