@@ -47,6 +47,12 @@ YouTube Shorts: la cuenta aún no está activa. Cuando lo esté, subir allí los
 - Borradores sin tocar: Sales a tope 27 nov 20:30, Fuerza 28 nov 13:30, Lado 29 nov 20:30. Rodilla (26 nov 13:30) sigue en borrador con fecha pasada, no se publicó.
 - Cola TikTok: 27 nov 13:30 y 18:00, 28 nov 20:00, 29 nov 13:30 y 18:00, 30 nov 18:00. Huecos libres: 30 nov 13:30, y desde el 1 dic.
 
+## Revisión 28 nov 2026 (mañana)
+- En Instagram no hay reels nuevos desde el 26 nov. Todo está publicado, programado o en borrador en TikTok, salvo los pendientes de abajo. No se ha programado nada.
+- 27 nov 13:30 Correr con frío y 18:00 3 trucos: publicados en TikTok.
+- Borradores sin tocar: Sales a tope 27 nov 20:30 y Fuerza 28 nov 13:30 (fechas pasadas, no se publicaron), Lado 29 nov 20:30.
+- Cola TikTok: 28 nov 20:00 Periostitis, 29 nov 13:30 Km zapatillas y 18:00 Baja de 25, 30 nov 18:00 Gemelos. Huecos libres: 30 nov 13:30 y 20:30, y desde el 1 dic.
+
 ## Pendientes
 - Black Friday «¿Cuántos Moncus necesitas…? Cero» (IG 24 nov, 733 views, y 25 nov, 430 views; vídeos en el Drive: `Reel 1 · Tragaperras Black Friday.mp4` ID `1yKphVCtXwV7u_T3i1kK9QwMz3EQKqz-v` y `Reel 2 · Ticket Black Friday.mp4` ID `1-9ZNckrGk12Xgl9oxg4AFWERbW0dwHu0`). Campaña con fecha (hasta el 29 nov) y los huecos de 13:30 y 20:30 están llenos hasta el 30. No programado: preguntar a Lucía si los quiere en TikTok (en otro horario antes del 29 o en lugar de algún borrador).
 - «Comenta garmin y participa!» (IG 24 nov, 173 views): sorteo, preguntar a Lucía.
