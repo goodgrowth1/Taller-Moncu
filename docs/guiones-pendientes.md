@@ -156,3 +156,25 @@ Dos: primer día, la mitad de lo que hacías. Suave.
 Tres: no recuperes los kilómetros perdidos.
 [excited] Y cuatro: vuelve hoy. En Moncu, ese kilómetro ya es premio.
 Mándaselo a quien sigue en el sofá.
+
+## Tanda del 28 nov 2026 (reels ~20 s, voz Mark Dou)
+
+### JUE 3 DIC · Cadencia: cuántos pasos por minuto deberías dar
+mp3: `Cadencia: cuántos pasos por minuto deberías dar.mp3`
+
+[confident] ¿Cuántos pasos das por minuto? 4 claves de cadencia.
+Una: cuenta 30 segundos y multiplica por dos.
+Dos: casi todos rondan 160. Los de élite, 180.
+Tres: súbela de poco en poco. De 160 a 168, con pasos más cortos.
+[excited] Y cuatro: se entrena corriendo. En Moncu, cada salida suma premios.
+Guárdalo y cuéntalos mañana.
+
+### SÁB 12 DIC · Regalos para un runner por menos de 20 €
+mp3: `Regalos para un runner por menos de 20 €.mp3`
+
+[sarcastic] ¿Otra vez calcetines para tu amigo runner? Vale, pero buenos. 4 regalos por menos de 20 euros.
+Uno: calcetines técnicos. Los va a usar, te lo prometo.
+Dos: una gorra para correr.
+Tres: geles para su próxima carrera.
+[excited] Y cuatro: Moncu. No cuesta nada y sus kilómetros le devuelven premios.
+Mándaselo a tu amigo invisible.
